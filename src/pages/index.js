@@ -16,9 +16,9 @@ export default function Home({ data }) {
   const posts = data.allMarkdownRemark.nodes;
   return (
     <Layout>
-      <Seo title="Your favorite Software Engineering Podcast" />
+      <Seo title="Del lápiz al micrófono" />
       <section className={styles.episodes}>
-        <h1>Latest Episodes</h1>
+        <h1>Episodios</h1>
         <ul>
           {posts.map((posts) => (
             <li key={posts.id}>
@@ -51,10 +51,10 @@ export default function Home({ data }) {
       </section>
       <section className="subscribe">
         <div className="subscribe-text">
-          <h2>Subscribe To Your Favorite Tech Podcast</h2>
+          <h2>Puedes seguirnos</h2>
           <p>
-            Never miss an episode! Subscribe on iTunes, Google, Deezer, or via
-            RSS
+            Si no quieres perderte los nuevos episodios, síguenos en Spotify, Google, Deezer, o via
+            RRSS
           </p>
           <div className="icons">
             <a
