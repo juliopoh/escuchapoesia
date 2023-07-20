@@ -7,15 +7,16 @@ import SimpleIcon from "./SimpleIcon";
 export default function Header() {
   const subscriptionOptions = [
     {
-      name: "apple-podcasts",
-      title: "Apple Podcasts",
-      href: "https://podcasts.apple.com/at/podcast/software-engineering-unlocked/id1477527378?l=en",
-    },
-    {
       name: "spotify",
       title: "Spotify",
       href: "https://open.spotify.com/show/2wz1OneBIDXpbBYeuyIsJL?si=2I0R0HuaTLK6RT0f7lDIFg&nd=1",
     },
+    {
+      name: "apple-podcasts",
+      title: "Apple Podcasts",
+      href: "https://podcasts.apple.com/at/podcast/software-engineering-unlocked/id1477527378?l=en",
+    },
+  
     {
       name: "google-podcasts",
       title: "Google Podcasts",
@@ -35,11 +36,6 @@ export default function Header() {
       name: "yt",
       title: "YouTube",
       href: "https://www.youtube.com/channel/UCWVxDd-f0EbQ_t56MyLobqw",
-    },
-    {
-      name: "mailchimp",
-      title: "Newsletter",
-      href: "https://mailchi.mp/8216e8ed8cec/se-unlocked-email-community",
     },
     {
       name: "rss",
@@ -62,24 +58,24 @@ export default function Header() {
           <nav className={styles.nav}>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Inicio</Link>
               </li>
               <li>
-                <Link to="https://www.michaelagreiler.com/workshops/">
-                  Workshops
+                <Link to="/proyecto">
+                  Proyecto
                 </Link>
               </li>
               <li>
-                <Link to="/sponsorship">Be A Sponsor</Link>
+                <Link to="/podcasts">Podcasts</Link>
               </li>
               <li>
-                <Link to="/guestguide">Be A Guest</Link>
+                <Link to="/galeria">Galería</Link>
               </li>
             </ul>
           </nav>
           <div className={styles.subscribe}>
             <div className="container nav_container">
-              <span>Subscribe on</span>
+              <span>Escúchanos y síguenos en</span>
               <ul>
                 {subscriptionOptions.map((option) => (
                   <li key={option.name}>

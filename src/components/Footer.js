@@ -1,61 +1,46 @@
 import { Link } from "gatsby";
 import React from "react";
 import { FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import { StaticImage } from "gatsby-plugin-image";
+import * as styles from "../styles/footer.module.css";
 
 export default function Footer() {
   return (
     <div>
-      <footer>
-        <Container className="footer_section">
-          <div>
-            <h2>ABOUT SOFTWARE ENGINEERING UNLOCKED PODCAST</h2>
-            <p>
-              The Software Engineering Unlocked is your favorite tech podcast. 
-              It gives you a sneak peek
-              into how software companies around the world develop software.
-
-              This Software Engineering Podcast focuses on:</p>
-              <p>
-              What challenges do they face? Which best practices do they follow?
-              And what do they do to build reliable, maintainable and scaleable
-              software people love? 
-              </p>
-              <p>
-              In this software engineering podcast, you hear from developers at companies of all
-              sizes, whether it is a large cooperations or a small startup. Each
-              guest has their unique story to tell.
-            </p>
-          </div>
-          <div>
-            <h2>Pages</h2>
-            <div className="links">
-              <Link to="/">Home</Link>
-              <br />
-              <Link to="/sponsorship">Be A Sponsor</Link>
-              <br />
-              <Link to="/guestguide">Be A Guest</Link>
-              <br />
-            </div>
-          </div>
-        </Container>
-      </footer>
-      <div className="copy-rights flex justify-content-between">
-        <p></p>
-
-        <p className="text-center">
-          Copyright 2022{" "}
-          <a
-            href="https://www.michaelagreiler.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Doctor McKayla
-          </a>
-        </p>
+    
+      <div className="copy-rights flex justify-content-between">  
+        <div className="containernav_container">
+              <input className={styles.menuToggle} type="checkbox" id="menu-btn" />
+                <label htmlFor="menu-btn" className={styles.menuIcon} id="menu">
+                  <span className={styles.navicon}></span>
+                </label>
+              
+              <div className={styles.menu}>
+                <nav className={styles.nav}>
+                  <ul>
+                    <li>
+                      <Link to="/">Inicio</Link>
+                    </li>
+                    <li>
+                      <Link to="/proyecto">
+                        Proyecto
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/podcasts">Podcasts</Link>
+                    </li>
+                    <li>
+                      <Link to="/galeria">Galería</Link>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>  
+        
         <p>
           <a
-            href="https://www.facebook.com/seunlocked/"
+            href="https://www.facebook.com/delapizalmicrofono/"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook link"
@@ -64,7 +49,7 @@ export default function Footer() {
             <FaFacebookSquare className="pointer" size={30} />{" "}
           </a>
           <a
-            href="https://twitter.com/mgreiler"
+            href="https://twitter.com/delapizalmicrofono"
             target="_blank"
             rel="noreferrer"
             aria-label="Twitter link"
@@ -74,6 +59,32 @@ export default function Footer() {
           </a>
         </p>
       </div>
+      <footer>
+        <Container>
+          <Row className="justify-content-md-center">
+            <Col sm={2} xs="auto">
+              <StaticImage
+                  src="../images/logo_gob.png"
+                  alt="Tracy Phillips sponsoring the podcast"
+                />
+            </Col>
+            <Col sm={10} md="auto">
+            <h2>Proyecto financiado por el fondo del libro, convocatoria 2022.</h2>             
+            </Col> 
+          </Row>
+          <p className="text-center">
+            Desarrollado por {" "}
+            <a
+              href="https://github.com/juliopoh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Juliopo
+            </a>
+            {" "}© 2023
+         </p>
+        </Container>
+      </footer>
     </div>
   );
 }

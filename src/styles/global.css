@@ -124,7 +124,7 @@ footer h2 {
 }
 
 .copy-rights {
-  background-color: black;
+  background-color: #5d76e6;
   color: white;
   padding: 20px;
 }
@@ -192,6 +192,58 @@ section.about-show {
   background-color: #edf5f8;
 }
 
+.inicio {
+  background-color: #eeff62;
+  margin: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+}
+
+video {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.video02 {
+  width: 100%;
+  height: 60vh !important;
+  object-fit: cover;
+}
+
+.inicio-text {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.follow-us {
+  background-color: #eeff62;
+  margin: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.follow-us-text {
+  padding-left: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
 .subscribe {
   background-color: #eeff62;
   margin: 0%;
@@ -199,17 +251,14 @@ section.about-show {
   padding-bottom: 15%;
   padding-left: 0%;
   padding-right: 0%;
-  background-image: url("../uploads/2019/08/bg_subscribe_women.png");
+  background-image: url("../images/podcasts_footer.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom center;
 }
 
 .subscribe-text {
   padding-left: 2em;
-}
-
-.subscribe-text h2 {
   font-weight: bold;
 }
 

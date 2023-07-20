@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.se-unlocked.com",
-    title: "Software Engineering Unlocked",
+    siteUrl: "https://www.delapizalmicrofono.cl",
+    title: "Del lápiz al micrófono",
     author: {
-      name: `Dr. Michaela Greiler`,
-      summary: `who is obsessed with making code reviews your superpower.`,
+      name: `Julio Díaz Pérez`,
+      summary: `who not is obsessed with making code reviews your superpower.`,
     },
-    description: `Your favorite Software Engineering Podcast.`,
-    siteUrl: `https://www.software-engineering-unlocked.com`,
+    description: `Escritura y podcast desde la montaña.`,
+    siteUrl: `https://www.delapizalmicrofono.cl`,
     social: {
       twitter: `mgreiler`,
     },
-    keywords: `tech podcast, software quality, code reviews, technology podcast, software engineering podcast, programming podcast`,
+    keywords: `tech podcast, software quality, code reviews, technology podcast, software engineering podcast, programming podcast, literatura, montaña, vilches, maule`,
     defaultogimage: `/og-image.png`,
   },
   trailingSlash: "always",
