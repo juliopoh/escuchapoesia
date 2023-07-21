@@ -1,53 +1,4 @@
-.header {
-    --outer-padding: 30px;
-    --inner-padding: 0.75rem;
-    background: radial-gradient(at top left, #5d76e6, rgb(107, 75, 182) 100%);
-    background-repeat: no-repeat;
-    overflow: none;
-    padding: var(--outer-padding);
-    position: relative;
-  }
-  
-  .header > div {
-    padding: 0 var(--inner-padding);
-  }
-  
-  .logo :global(img) {
-    width: 173px !important;
-  }
-  
-  .menuToggle {
-    display: none;
-  }
-  
-  .menuIcon {
-    cursor: pointer;
-    display: inline-block;
-    padding: 14px 20px 28px;
-    position: relative;
-    user-select: none;
-  }
-  
-  .menuIcon .navicon {
-    background: white;
-    display: block;
-    height: 2px;
-    margin-top: 15px;
-    position: relative;
-    transition: background 0.2s ease-out;
-    width: 18px;
-  }
-  
-  .menuIcon .navicon:before,
-  .menuIcon .navicon:after {
-    background: white;
-    content: "";
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease-out;
-    width: 100%;
-  }
+
   
   .menuIcon .navicon:before {
     top: 5px;
@@ -88,7 +39,7 @@
   }
   
   .nav {
-    padding-bottom: 5rem;
+    padding-bottom: 0;
   }
   
   .nav ul {
@@ -114,7 +65,7 @@
     color: white;
     display: inline-block;
     margin: 20px 20px;
-    padding-bottom: 8px;
+    padding-bottom: 0;
     text-decoration: none;
   }
   

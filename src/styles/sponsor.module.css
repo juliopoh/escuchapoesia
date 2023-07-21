@@ -42,11 +42,11 @@
 }
 
 .button {
-  fill: #263669;
-  color: #263669;
-  background-color: #fce94d;
+  fill: #455dac;
+  color: #FFFFFF;
+  background-color: #435baa;
   font-size: 20px;
-  padding: 25px 50px;
+  padding: 15px 25px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
   border: none;
@@ -86,5 +86,47 @@ ul li span {
 @media screen and (max-width: 768px) {
   .section_2 h1 {
     font-size: 30px;
-  }
+  } 
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+}
+
+video {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.video02 {
+  width: 100%;
+  height: 60vh !important;
+  object-fit: cover;
+}
+
+.main-button {
+  position: static;
+  width: 100%;
+  height: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-footer {
+  background-color: #eeff62;
+  margin: 0%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-image: url("../images/djulises.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }

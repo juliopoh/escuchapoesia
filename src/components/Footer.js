@@ -10,13 +10,9 @@ export default function Footer() {
     <div>
     
       <div className="copy-rights flex justify-content-between">  
-        <div className="containernav_container">
-              <input className={styles.menuToggle} type="checkbox" id="menu-btn" />
-                <label htmlFor="menu-btn" className={styles.menuIcon} id="menu">
-                  <span className={styles.navicon}></span>
-                </label>
+        <div>
               
-              <div className={styles.menu}>
+              <div>
                 <nav className={styles.nav}>
                   <ul>
                     <li>

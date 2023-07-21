@@ -15,7 +15,7 @@ export default function About() {
         <div class="flex-container">
           <div class="flex-child">
             <StaticImage
-              src="../uploads/2019/07/podcast_small.jpg"
+              src="../images/podcasts_footer.jpg"
               alt="Michaela Greiler recording a show"
             />
           </div>

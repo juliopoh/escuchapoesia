@@ -1,45 +1,23 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Coverindex from "../components/Coverindex";
 import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import * as styles from "../styles/sponsor.module.css";
-import index01 from "../uploads/videos/index01.mp4"
-import index02 from "../uploads/videos/index02.mp4"
 
 export default function GuestGuide() {
   return (
     <Layout>
       <Seo title="Inicio" />
-      <div className="inicio">
-       <video src={index01} autoPlay loop muted />
-       <div className="inicio-text">
-          <h1>Del lápiz al micrófono</h1>
-          <h3>
-            Escritura y podcast desde la montaña
-          </h3>
-        </div>
-      </div>
-       <div className={styles.section_1}>
+      <Coverindex />
+       <div className={styles.section_1} id="begin">
         <div className={styles.sponsor_container}>
           <p>
-            The Software Engineering Unlocked podcast is an up and coming show
-            directed to developers, and engineering leaders. Two things all
-            listeners have in common is the drive to build better software and
-            better engineering cultures.
+            <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña</strong> se trata de una iniciativa de fomento lector, orientada a los estudiantes de dos escuelas multigrado de la localidad de Vilches Alto, en la cordillera de San Clemente, región del Maule, Chile.
           </p>
           <p>
-            Sponsors that make a perfect match with the Software Engineering
-            Unlocked podcast include sponsors that:
+            Los establecimientos que participaron del proyecto son <strong>Escuela Vilches Alto</strong> y <strong>Escuela Los Robles</strong>.
           </p>
-          <ul>
-            <li>offer software that makes developers’ lives better,</li>
-            <li>are looking to hire talented folks,</li>
-            <li>
-              provide high-quality training and education resources such as
-              courses or books, or,
-            </li>
-            <li>offer high-quality products that are beneficial for developers.</li>
-          </ul>
         </div>
         </div>
       <Container className="guest-guide pt-3 pb-5">
@@ -110,8 +88,9 @@ export default function GuestGuide() {
           the podcast host and the guest!
         </p>
       </Container>
-      <video className="video02" src={index02} autoPlay loop muted />
-
+      <section className={styles.indexFooter}>
+       
+      </section>{" "}
     </Layout>
   );
 }

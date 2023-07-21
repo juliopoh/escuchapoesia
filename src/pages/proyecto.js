@@ -6,12 +6,8 @@ import * as styles from "../styles/sponsor.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import rss from "../images/RSS-Feed-blue-sm.png";
-import pod from "../images/google-podcast-blue-sm.png";
-import deezer from "../images/deezer-blue-sm.png";
-import itunes from "../images/itunes-blue-sm.png";
-import twitter from "../images/twitter-logo-sm-blue.png";
 import { FaAlignCenter } from "react-icons/fa";
+import index02 from "../uploads/videos/index02.mp4"
 
 export default function Sponsorship() {
   return (
@@ -368,51 +364,8 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
       </div>
       
       <Newsletter />
-      <section className="follow-us">
-        <div className="follow-us-text">
-          <h2>Si no quieres perderte los nuevos episodios, síguenos en Spotify, Google, Deezer, o via RRSS</h2>
-          <div class="p-3 body-bg">
-          
-          </div>
-          <div className="icons">
-            <a
-              href="https://feeds.simplecast.com/K1_mv0CJ"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={rss} alt="subscribe via RSS feed" />
-            </a>
-            <a
-              href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9LMV9tdjBDSg=="
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={pod} alt="subscribe via Google podcast" />
-            </a>
-            <a
-              href="https://podcasts.apple.com/at/podcast/software-engineering-unlocked/id1477527378?l=en"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={itunes} alt="subscribe via iTunes" />
-            </a>
-            <a
-              href="https://twitter.com/se_unlocked"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={twitter} alt="subscribe via Twitter" />
-            </a>
-            <a
-              href="https://www.deezer.com/us/show/465682"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={deezer} alt="subscribe via Deezer" />
-            </a>
-          </div>
-        </div>
-        </section>{" "}
+        
+      <video className={styles.video02} src={index02} autoPlay loop muted />
       
     </Layout>
   );
