@@ -118,6 +118,10 @@ video {
   align-items: center;
 }
 
+.index-button :global(img) {
+  width: 225px;
+}
+
 .index-footer {
   background-color: #eeff62;
   margin: 0%;

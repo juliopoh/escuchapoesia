@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/sponsor.module.css";
 import index01 from "../uploads/videos/index01.mp4"
 
@@ -9,9 +11,9 @@ export default function Coverindex() {
   <div className={styles.main}>
        <video src={index01} autoPlay loop muted />
        <div className={styles.mainButton}>
-            <a href="#begin">
-              <button className={styles.button}>🡻</button>{" "}
-            </a>
+        <Link to="/#begin" className={styles.indexButton}>
+            <StaticImage src="../images/indexbutton.png" alt="logo" />
+          </Link>
         </div>
       </div>
   );
