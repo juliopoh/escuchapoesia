@@ -8,7 +8,7 @@ excerpt: "Con este teaser damos comienzo al podcast 'Del lápiz al micrófono: E
 type: post
 id: 369
 thumbnail_alt: "Picture of podcast guest"
-thumbnail: ../uploads/2020/09/SE_Unlocked_CoverArt_small.jpg
+thumbnail: ../teaser-2/teaser2.jpg
 category:
   - "Company Culture"
   - Hiring
