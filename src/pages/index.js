@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Coverindex from "../components/Coverindex";
 import { Container } from "react-bootstrap";
+import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 import * as styles from "../styles/sponsor.module.css";
 
@@ -9,11 +9,11 @@ export default function GuestGuide() {
   return (
     <Layout>
       <Seo title="Inicio" />
-      <Coverindex />
-      <div className={styles.sponsor_container} id="begin">
+      <div className={styles.sponsor_container}>
         <h1>
         Del lápiz al micrófono
         </h1>
+        <div style={{textAlign:"center"}}><StaticImage src="../images/indexbutton.png" alt="logo" /></div> 
         <h2 style={{textAlign:"center"}}>Escritura y podcast desde la montaña</h2>
       </div>
        <div className={styles.section_1}>

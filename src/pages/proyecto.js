@@ -1,13 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { Link } from "gatsby";
 import Seo from "../components/seo";
 import Newsletter from "../components/Newsletter";
 import * as styles from "../styles/sponsor.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { FaAlignCenter } from "react-icons/fa";
 import index02 from "../uploads/videos/index02.mp4"
 
 export default function Sponsorship() {
@@ -18,8 +16,7 @@ export default function Sponsorship() {
         <h1>
         Del lápiz al micrófono
         </h1>
-        <h2 style={{textAlign:"center"}}>Escritura y podcast desde la montaña</h2>
-        <div style={{textAlign:"center"}}><StaticImage src="../images/indexbutton.png" alt="logo" /></div> 
+        <p style={{textAlign:"center"}}>Un proyecto de fomento lector.</p>
       </div>
       {/*section1*/}
       <div className={styles.section_1}>
@@ -131,14 +128,6 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           to make purchasing decisions in their company. This is also the reason why it's important that there is a great 
           match between your product and my audience. 
           </p>
-          <br/>
-          <p>
-          Another benefit that previous sponsors reported is <i>link building</i>. 
-          After sponsoring the episodes, sponsors reported that their backlink profile had had a nice push. 
-          Finally, podcasts also work for <i>direct response advertising</i>, meaning generating clicks on your website or purchases. 
-          Yet, as listeners are often not on their devices but instead listening carefully, this is harder to measure as 
-          they often visit the website later on (and not through a trackable link). 
-          </p>
         </div>
       </div>
       {/*section5 how it works*/}
@@ -179,68 +168,6 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           Ad-spots are best used for building brand awareness and can be most effective when aired multiple times in 
           succession to help listeners remember the brand and product.
           </p>
-          <br/><br/>
-          <p>
-          <b>Sponsored episodes</b>, on the other hand, are an entire episode dedicated to your company and its product. 
-          The episode will be approximately 45 minutes long and will delve into either the technical and engineering processes 
-          that went into creating the product, the ins and uts of the product, or the company's founding story. <br/>
-          Sponsored episodes are ideal for those who want to provide more in-depth information about their product, 
-          and build trust amongst the developer community. 
-          For example, Fiberplane used a sponsored episode to increase brand recognition.
-          </p>
-        </div>
-      </div>
-      {/*section6 Pricing*/}
-      <div className={styles.section_2}>
-        <div className={styles.sponsor_container}>
-          {" "}
-          <h3>Pricing</h3>
-          <p>
-            Because the best results for podcast advertisers are achieved when
-            the podcast sponsors appear on a few consecutive shows*, we highly encourage you
-            to book a multi-show-package and profit from the discounted rates.
-          </p>
-          <ul>
-            <li>Multi-show 3+ appearances — €540 Euro per show</li>
-            <li>Multi-show 6+ appearances — €399 Euro per show</li>
-            <li>Single show appearance — €850 Euro per show</li>
-          </ul>
-          <p>
-            When there is an excellent fit between your product and our audience, we allow you as a sponsored speakers, giving all the spotlight to
-            you for 45 minutes. A sponsored speaker episode costs €1490 Euros.{" "}
-          </p>
-        </div>
-      </div>
-        {/*section Why multiple ads*/}
-        <div className={styles.section_2}>
-        <div className={styles.sponsor_container}>
-          {" "}
-          <h3>*The benefits of booking multiple ad-spots</h3>
-          <br/>
-          <p>
-            <ul>
-              <li><b>Increased brand recognition:</b> Booking multiple ad-spots in a row helps listeners become familiar 
-                with your brand and product, leading to increased recognition and recall.</li>
-                <li><b>Increased exposure:</b> Having multiple ad-spots allows for greater exposure to the target audience, 
-                 leading to increased brand awareness and increased conversion rates.</li>
-                <li><b>Improved cost-effectiveness:</b> Booking multiple ad-spots comes with a discount, 
-                  making it a more cost-effective way to reach your target audience compared to booking a single advertisement.</li>
-                <li><b>Reinforcement of key messages:</b> Booking multiple ad-spots reinforces key messages and features of the product, 
-                  helping to solidify the listener's understanding and recall of the product.</li>
-                <li><b>Building a relationship with the audience:</b> Consistently appearing in the listener's 
-                  feed can help establish a relationship with the audience and build trust in the brand.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
-      {/*section7*/}
-      <div className={styles.section_2}>
-        <div className={styles.sponsor_container}>
-          <div className="d-flex justify-content-center">
-            <a href="https://code-review-workshop.typeform.com/to/Cap63J">
-              <button className={styles.button}>Let me sponsor!</button>
-            </a>
-          </div>
         </div>
       </div>
       {/* Donation section section8 */}
@@ -352,15 +279,12 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
       </div>
       <div className={styles.gradient_section}>
         <div className={styles.sponsor_container}>
-          <h1 className={styles.text_left}>Ready to increase your reach?</h1>
-          <p className="mt-4">Interested in sponsoring? Send us an email at</p>
-          <p>
-              michaela [at] michaelagreiler [.] com
-          </p>
+          <h1 className={styles.text_left}>Libro en PDF</h1>
+          <p className="mt-4">Puedes descargar el libro Del lápiz al micrófono, que reúne en escrito la experiencia de fomento a la lecto-escritura.</p>
           <br/>
           <br/>
           <a href="https://code-review-workshop.typeform.com/to/Cap63J">
-              <button className={styles.button}>Let me sponsor!</button>
+              <button className={styles.button}>Descargar</button>
             </a>
         </div>
       </div>

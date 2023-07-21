@@ -10,13 +10,15 @@ import itunes from "../images/itunes-blue-sm.png";
 import twitter from "../images/twitter-logo-sm-blue.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Seo from "../components/seo";
+import Coverindex from "../components/Coverindex";
 
 export default function Home({ data }) {
   const posts = data.allMarkdownRemark.nodes;
   return (
     <Layout>
       <Seo title="Podcasts" />
-      <section className={styles.episodes}>
+      <Coverindex />
+      <section className={styles.episodes} id="begin">
         <h1>Podcasts</h1>
         <ul>
           {posts.map((posts) => (
