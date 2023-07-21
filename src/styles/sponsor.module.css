@@ -118,8 +118,8 @@ video {
   align-items: center;
 }
 
-.index-button :global(img) {
-  width: 225px;
+.index-button {
+  width: 225px !important;
 }
 
 .index-footer {

@@ -10,7 +10,13 @@ export default function GuestGuide() {
     <Layout>
       <Seo title="Inicio" />
       <Coverindex />
-       <div className={styles.section_1} id="begin">
+      <div className={styles.sponsor_container} id="begin">
+        <h1>
+        Del lápiz al micrófono
+        </h1>
+        <h2 style={{textAlign:"center"}}>Escritura y podcast desde la montaña</h2>
+      </div>
+       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <p>
             <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña</strong> se trata de una iniciativa de fomento lector, orientada a los estudiantes de dos escuelas multigrado de la localidad de Vilches Alto, en la cordillera de San Clemente, región del Maule, Chile.

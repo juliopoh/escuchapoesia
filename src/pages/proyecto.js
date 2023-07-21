@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { Link } from "gatsby";
 import Seo from "../components/seo";
 import Newsletter from "../components/Newsletter";
 import * as styles from "../styles/sponsor.module.css";
@@ -18,6 +19,7 @@ export default function Sponsorship() {
         Del lápiz al micrófono
         </h1>
         <h2 style={{textAlign:"center"}}>Escritura y podcast desde la montaña</h2>
+        <div style={{textAlign:"center"}}><StaticImage src="../images/indexbutton.png" alt="logo" /></div> 
       </div>
       {/*section1*/}
       <div className={styles.section_1}>
