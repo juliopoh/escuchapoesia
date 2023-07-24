@@ -3,7 +3,7 @@
   max-width: 90%;
   color: #263669;
   margin: 0 auto;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 .sponsor_container h1 {
   font-size: 35px;
@@ -20,6 +20,9 @@
   font-weight: 400;
   text-transform: none;
   text-align: center;
+}
+.container_image {
+  width: 300px;
 }
 .section_1 {
   background-color: #edf5f8;
@@ -91,13 +94,14 @@ ul li span {
 
 .main {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 0;
+  margin-bottom: 100px;
 }
 
 video {
   width: 100%;
-  height: 60%;
+  height: 50vh;
   object-fit: cover;
 }
 

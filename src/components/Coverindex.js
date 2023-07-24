@@ -12,7 +12,7 @@ export default function Coverindex() {
        <video src={index01} autoPlay loop muted />
        <div className={styles.mainButton}>
         <Link to="/podcasts/#begin" className={styles.indexButton}>
-            <StaticImage src="../images/indexbutton.png" alt="logo" />
+            <StaticImage src="../images/indexbutton2.png" alt="logo" />
           </Link>
         </div>
       </div>

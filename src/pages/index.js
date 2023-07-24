@@ -13,8 +13,9 @@ export default function GuestGuide() {
         <h1>
         Del lápiz al micrófono
         </h1>
-        <div style={{textAlign:"center"}}><StaticImage src="../images/indexbutton.png" alt="logo" /></div> 
-        <h2 style={{textAlign:"center"}}>Escritura y podcast desde la montaña</h2>
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div> 
+        
+        <p style={{textAlign:"center"}}>Escritura y podcast desde la montaña</p>
       </div>
        <div className={styles.section_1}>
         <div className={styles.sponsor_container}>

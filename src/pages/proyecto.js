@@ -9,15 +9,36 @@ import Col from "react-bootstrap/Col";
 import index02 from "../uploads/videos/index02.mp4"
 
 export default function Sponsorship() {
+  const width = 500
   return (
     <Layout>
        <Seo title="Proyecto" />
-      <div className={styles.sponsor_container}>
-        <h1>
-        Del lápiz al micrófono
-        </h1>
-        <p style={{textAlign:"center"}}>Un proyecto de fomento lector.</p>
+       <div className={styles.section_2}>
+        <div className={styles.sponsor_container}>
+          <Row>
+            <Col sm={12} md={5} lg={5}>
+            <StaticImage 
+                src="../images/logo2.png"
+                width={width}
+                alt="Tracy Phillips sponsoring the podcast"
+                
+              />
+          
+            </Col>
+            <Col sm={12} md={7} lg={7}>
+            <div className={styles.sponsor_container}>
+      
+      <h1>
+      Del lápiz al micrófono
+      </h1>
+      <p style={{textAlign:"center"}}>Una iniciativa de fomento lector</p>
+    </div>
+            </Col>
+          </Row>
+        </div>
       </div>
+       
+      
       {/*section1*/}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
