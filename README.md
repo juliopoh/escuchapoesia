@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Draft of the SE Unlocked Website
+  Sitio web para el proyecto "Del lápiz al papel: Escritura y podcast desde la montaña", basado en el desarrollo de -SE Unlocked Website-
 </h1>
 
 ## 🚀 The Goal

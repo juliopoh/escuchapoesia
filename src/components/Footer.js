@@ -24,10 +24,10 @@ export default function Footer() {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/podcasts">Podcasts</Link>
+                      <Link to="/galeria">Galería</Link>
                     </li>
                     <li>
-                      <Link to="/galeria">Galería</Link>
+                    <Link to="/podcast">Podcast</Link>
                     </li>
                   </ul>
                 </nav>

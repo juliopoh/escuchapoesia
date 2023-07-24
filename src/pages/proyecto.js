@@ -9,7 +9,6 @@ import Col from "react-bootstrap/Col";
 import index02 from "../uploads/videos/index02.mp4"
 
 export default function Sponsorship() {
-  const width = 300
   return (
     <Layout>
        <Seo title="Proyecto" />
@@ -140,7 +139,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
       {/*section5 how it works*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93922.03395694563!2d-70.98894498831368!3d-35.62763872501315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665657276ea4a2d%3A0x59f3837c1bd2136b!2sAltos%20de%20Lircay%20Reserva%20Nacional!5e1!3m2!1sen!2scl!4v1690239846487!5m2!1sen!2scl"  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93922.03395694563!2d-70.98894498831368!3d-35.62763872501315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665657276ea4a2d%3A0x59f3837c1bd2136b!2sAltos%20de%20Lircay%20Reserva%20Nacional!5e1!3m2!1sen!2scl!4v1690239846487!5m2!1sen!2scl"    
         width="100%" 
         height="450" 
         allowfullscreen
