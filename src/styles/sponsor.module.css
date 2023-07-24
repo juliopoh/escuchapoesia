@@ -138,3 +138,13 @@ video {
   background-size: cover;
   background-position: bottom center;
 }
+
+.proyecto-portada {
+  background-image: url("../images/proyecto-portada.jpg");
+  background-size: cover;
+  padding: 200px;
+}
+.proyecto-portada .sponsor_container h1,
+.proyecto-portada .sponsor_container p {
+  color: rgb(255, 255, 255) !important;
+}
