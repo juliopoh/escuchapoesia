@@ -6,7 +6,7 @@
 <h1 align="center">
  Del lápiz al micrófono: Escritura y podcast desde la montaña
 </h1>
-<p>Un sitio web para una iniciativa de fomento lector, sin fines de lucro, basado [Draft of the SE Unlocked Website](https://github.com/mgreiler/se-unlocked-website) </p>
+Un sitio web para una iniciativa de fomento lector, sin fines de lucro, basado en [Draft of the SE Unlocked Website](https://github.com/mgreiler/se-unlocked-website) 
 
 ## 🚀 The Goal
 
