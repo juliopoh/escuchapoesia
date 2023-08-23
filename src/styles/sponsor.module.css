@@ -25,7 +25,7 @@
   width: 300px;
 }
 .container_image_logo {
-  width: 450px;
+  width: 350px;
 }
 
 .section_1 {
@@ -151,4 +151,17 @@ video {
 .proyecto-portada .sponsor_container h1,
 .proyecto-portada .sponsor_container p {
   color: rgb(255, 255, 255) !important;
+}
+
+.vilchesTerrain {
+  background-color: #eeff62;
+  margin: 0%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-image: url("../images/vilchesTerrain2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }

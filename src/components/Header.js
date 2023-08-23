@@ -34,7 +34,7 @@ export default function Header() {
     {
       name: "rss",
       title: "RSS",
-      href: "https://feeds.delapizalmicrofono.com/K1_mv0CJ",
+      href: "https://rss.app/feeds/LzmQRqajnmep6gwA.xml",
     },
   ];
 

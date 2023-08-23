@@ -33,10 +33,13 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       </div>
       {/*section2*/}
       <div className={styles.section_2}>
+      <section className={styles.vilchesTerrain}>
+       
+       </section>{" "}
         <div className={`${styles.sponsor_container} ${styles.text_left}`}>
           <p className={`${styles.text_left}`}>Localidad : Vilches Alto</p>
           <p className={`${styles.text_left}`}>Colegios : Escuela Los Robles y Escuela Vilches Altos</p>
-          <p className={`${styles.text_left}`}>5,000+ Twitter followers</p>
+          <p className={`${styles.text_left}`}>San Clemente / Región del Maule</p>
         </div>
       </div>
       {/*section3 What Sponsor Say*/}
