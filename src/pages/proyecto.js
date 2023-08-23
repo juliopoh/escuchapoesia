@@ -14,44 +14,28 @@ export default function Sponsorship() {
        <Seo title="Proyecto" />
        <div className={styles.section_2}>
         <div className={`${styles.sponsor_container} ${styles.text_left}`}>
-          <h1>
-            Del lápiz al micrófono
-          </h1>
-          <p style={{textAlign:"center"}}>Una iniciativa de fomento lector</p>  
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image_logo} src="../images/logo-tipo.svg" alt="logo" /></div>
         </div>
       </div>
-     
-       
-      
       {/*section1*/}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
+          <p><b>Del lápiz al micrófono, escritura y podcast desde la montaña</b> es una iniciativa de fomento lector financiada por el Fondo del Libro y la Lectura, otorgado por el Ministerio de las Culturas, las Artes y el Patrimonio, en su convocatoria 2022.</p>
+          <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton3.png" alt="logo" /></div>
+          <p>Dicho proyecto, tiene como objetivo <b>promover la lecto-escritura, la valoración del territorio y el uso de las nuevas tecnologías de información y comunicación (Tic)</b> a través de la implementación de una serie de sesiones de taller con estudiantes de la escuela <b>“Los Robles”</b> y la escuela <b>“Vilches Alto”</b>, de la localidad de Vilches, en la cordillera de San Clemente, región del Maule.</p>
           <p>
-            The Software Engineering Unlocked podcast is an up and coming show
-            directed to developers, and engineering leaders. Two things all
-            listeners have in common is the drive to build better software and
-            better engineering cultures.
+Su implementación se propone incentivar el fomento lector a través del <b>rescate y transmisión de la identidad territorial de la comunidad de Vilches, registrando las diversas historias, mitos, cuentos o toponimias que habitan y recorren la localidad.</b>
           </p>
           <p>
-            Sponsors that make a perfect match with the Software Engineering
-            Unlocked podcast include sponsors that:
+            A través de su ejecución, se espera <b>impulsar la capacidad expresiva de los estudiantes, estimulando su imaginación y memoria emotiva con el territorio</b>, como también, acercarlos al ecosistema del libro, poniéndolos en contacto con editores, escritores y encuadernadores de la región del Maule.
           </p>
-          <ul>
-            <li>offer software that makes developers’ lives better,</li>
-            <li>are looking to hire talented folks,</li>
-            <li>
-              provide high-quality training and education resources such as
-              courses or books, or,
-            </li>
-            <li>offer high-quality products that are beneficial for developers.</li>
-          </ul>
         </div>
       </div>
       {/*section2*/}
       <div className={styles.section_2}>
         <div className={`${styles.sponsor_container} ${styles.text_left}`}>
-          <p className={`${styles.text_left}`}>170,000+ listens</p>
-          <p className={`${styles.text_left}`}>70+ episodes</p>
+          <p className={`${styles.text_left}`}>Localidad : Vilches Alto</p>
+          <p className={`${styles.text_left}`}>Colegios : Escuela Los Robles y Escuela Vilches Altos</p>
           <p className={`${styles.text_left}`}>5,000+ Twitter followers</p>
         </div>
       </div>

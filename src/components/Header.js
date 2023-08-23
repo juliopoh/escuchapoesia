@@ -10,27 +10,21 @@ export default function Header() {
       name: "spotify",
       title: "Spotify",
       href: "https://open.spotify.com/show/2wz1OneBIDXpbBYeuyIsJL?si=2I0R0HuaTLK6RT0f7lDIFg&nd=1",
-    },
-    {
-      name: "apple-podcasts",
-      title: "Apple Podcasts",
-      href: "https://podcasts.apple.com/at/podcast/software-engineering-unlocked/id1477527378?l=en",
-    },
-  
+    },  
     {
       name: "google-podcasts",
       title: "Google Podcasts",
       href: "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9LMV9tdjBDSg==",
     },
     {
-      name: "deezer",
-      title: "Deezer",
-      href: "https://www.deezer.com/us/show/465682",
+      name: "facebook",
+      title: "Facebook",
+      href: "https://www.facebook.com/profile.php?id=61550348950631",
     },
     {
-      name: "twitter",
-      title: "Twitter",
-      href: "https://twitter.com/se_unlocked",
+      name: "instagram",
+      title: "Instagram",
+      href: "https://www.instagram.com/del_lapiz_al_microfono/",
     },
     {
       name: "yt",
@@ -40,7 +34,7 @@ export default function Header() {
     {
       name: "rss",
       title: "RSS",
-      href: "https://feeds.simplecast.com/K1_mv0CJ",
+      href: "https://feeds.delapizalmicrofono.com/K1_mv0CJ",
     },
   ];
 
@@ -79,7 +73,7 @@ export default function Header() {
               <ul>
                 {subscriptionOptions.map((option) => (
                   <li key={option.name}>
-                    <a href={option.href} aria-label={option.title}>
+                    <a href={option.href} aria-label={option.title} target="_blank" rel="noreferrer" >
                       <SimpleIcon {...option} />
                     </a>
                   </li>

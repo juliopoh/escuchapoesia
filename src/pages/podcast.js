@@ -5,9 +5,9 @@ import * as styles from "../styles/home.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import rss from "../images/RSS-Feed-blue-sm.png";
 import pod from "../images/google-podcast-blue-sm.png";
-import deezer from "../images/deezer-blue-sm.png";
-import itunes from "../images/itunes-blue-sm.png";
-import twitter from "../images/twitter-logo-sm-blue.png";
+import youtube from "../images/youtube-blue-sm.png";
+import instagram from "../images/instagram-blue-sm.png";
+import facebook from "../images/facebook-logo-sm-blue.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Seo from "../components/seo";
 import Coverindex from "../components/Coverindex";
@@ -52,7 +52,8 @@ export default function Home({ data }) {
       </section>
       <section className="follow-us">
         <div className="follow-us-text">
-          <h2>Si no quieres perderte los nuevos episodios, síguenos en Spotify, Google, Deezer, o via RRSS</h2>
+          <h2>Si no quieres perderte los nuevos episodios
+            <br/>síguenos en Spotify, Google y en nuestras redes sociales</h2>
           <div class="p-3 body-bg">
           
           </div>
@@ -72,25 +73,25 @@ export default function Home({ data }) {
               <img src={pod} alt="subscribe via Google podcast" />
             </a>
             <a
-              href="https://podcasts.apple.com/at/podcast/software-engineering-unlocked/id1477527378?l=en"
+              href="https://www.instagram.com/del_lapiz_al_microfono/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={itunes} alt="subscribe via iTunes" />
+              <img src={instagram} alt="subscribe via iTunes" />
             </a>
             <a
-              href="https://twitter.com/se_unlocked"
+              href="https://www.facebook.com/profile.php?id=61550348950631"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={twitter} alt="subscribe via Twitter" />
+              <img src={facebook} alt="subscribe via Twitter" />
             </a>
             <a
-              href="https://www.deezer.com/us/show/465682"
+              href="https://www.youtube.com/us/show/465682"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={deezer} alt="subscribe via Deezer" />
+              <img src={youtube} alt="subscribe via Deezer" />
             </a>
           </div>
         </div>

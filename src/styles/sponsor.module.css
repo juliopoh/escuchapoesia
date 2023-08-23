@@ -24,6 +24,10 @@
 .container_image {
   width: 300px;
 }
+.container_image_logo {
+  width: 450px;
+}
+
 .section_1 {
   background-color: #edf5f8;
 }

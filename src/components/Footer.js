@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import { FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/footer.module.css";
@@ -36,7 +36,7 @@ export default function Footer() {
         
         <p>
           <a
-            href="https://www.facebook.com/delapizalmicrofono/"
+            href="https://www.facebook.com/profile.php?id=61550348950631"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook link"
@@ -45,13 +45,13 @@ export default function Footer() {
             <FaFacebookSquare className="pointer" size={30} />{" "}
           </a>
           <a
-            href="https://twitter.com/delapizalmicrofono"
+            href="https://www.instagram.com/del_lapiz_al_microfono/"
             target="_blank"
             rel="noreferrer"
-            aria-label="Twitter link"
+            aria-label="Instagram link"
           >
             {" "}
-            <FaTwitterSquare className="pointer" size={30} />
+            <FaInstagramSquare className="pointer" size={30} />
           </a>
         </p>
       </div>
@@ -71,13 +71,13 @@ export default function Footer() {
           <p className="text-center">
             Desarrollado por {" "}
             <a
-              href="https://github.com/juliopoh"
+              href="https://github.com/juliopoh/delapizalmicrofono"
               target="_blank"
               rel="noreferrer"
             >
               Juliopo
             </a>
-            {" "}© 2023
+            {" "}© {new Date().getFullYear()}{" "}
          </p>
         </Container>
       </footer>
