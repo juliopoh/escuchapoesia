@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.delapizalmicrofono.cl",
@@ -142,6 +143,7 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-instagram",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",

@@ -61,13 +61,14 @@ export default function Footer() {
             <Col sm={2} xs="auto">
               <StaticImage
                   src="../images/logo_gob.png"
-                  alt="Tracy Phillips sponsoring the podcast"
+                  alt="LogoGob"
                 />
             </Col>
             <Col sm={10} md="auto">
-            <h2>Proyecto financiado por el fondo del libro, convocatoria 2022.</h2>             
+            <h2 >Proyecto financiado por el Fondo del Libro y la Lectura,<br/> línea de Fomento a la lectura y escritura, convocatoria 2022.</h2>             
             </Col> 
           </Row>
+          <div style={{marginTop:"20px"}}>
           <p className="text-center">
             Desarrollado por {" "}
             <a
@@ -79,6 +80,7 @@ export default function Footer() {
             </a>
             {" "}© {new Date().getFullYear()}{" "}
          </p>
+         </div>
         </Container>
       </footer>
     </div>

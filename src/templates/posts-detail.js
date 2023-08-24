@@ -19,14 +19,13 @@ export default function PostsDetails({ data }) {
     post_header_image,
     excerpt,
     audio,
-    sc_audio,
   } = data.markdownRemark.frontmatter;
 
   const { transcript } = data;
   const ogimagesrc = getSrc(getImage(ogimage.frontmatter.thumbnail));
 
   let audio_player;
-  if (sc_audio) {
+  if (audio) {
     audio_player = (
       <iframe
         height="200px"
@@ -34,7 +33,7 @@ export default function PostsDetails({ data }) {
         frameborder="no"
         scrolling="no"
         seamless
-        src={sc_audio}
+        src={audio}
         title={title}
       ></iframe>
     );
@@ -125,7 +124,6 @@ export const query = graphql`
         }
         thumbnail_alt
         audio
-        sc_audio
       }
     }
 

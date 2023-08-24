@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-import Newsletter from "../components/Newsletter";
 import * as styles from "../styles/sponsor.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import Row from "react-bootstrap/Row";
@@ -36,22 +35,25 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       <section className={styles.vilchesTerrain}>
        
        </section>{" "}
-        <div className={`${styles.sponsor_container} ${styles.text_left}`}>
+       {/* } <div className={`${styles.sponsor_container} ${styles.text_left}`}>
           <p className={`${styles.text_left}`}>Localidad : Vilches Alto</p>
           <p className={`${styles.text_left}`}>Colegios : Escuela Los Robles y Escuela Vilches Altos</p>
           <p className={`${styles.text_left}`}>San Clemente / Región del Maule</p>
         </div>
+      */}
       </div>
       {/*section3 What Sponsor Say*/}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
-          <h3>What Sponsor Say</h3>
+          <h3 style={{textAlign:"right"}}>Palabras desde la montaña...</h3>
           <Row className="mt-4 ml-4 mr-4">
             <Col sm={12} md={6} lg={6}>
+              <div className={styles.team_image}>
               <StaticImage
-                src="../images/tracy-2020.jpg"
+                src="../images/grupo.jpg"
                 alt="Tracy Phillips sponsoring the podcast"
               />
+              </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
               <p className={styles.italic}>
@@ -73,9 +75,9 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <Row className="mt-4 ml-4 mr-4">
-            <Col sm={12} md={6} lg={6}>
+            <Col sm={6} md={6} lg={6}>
               <StaticImage
-                src="../images/Elena_Boroda_Fiberplane.jpg"
+                src="../images/escuela_vilches.jpg"
                 alt="Elena Boroda Fiberplane sponsoring the podcast"
               />
             </Col>
@@ -93,7 +95,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           </Row>
         </div>
       </div>
-      {/*section4*/}
+      {/*section4
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
           <div className="d-flex justify-content-center">
@@ -103,12 +105,13 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           </div>
         </div>
       </div>
+      */}
       {/*why sponsor*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
         <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
           {" "}
-          <h3>Why advertise on the SE Unlocked podcast?</h3>
+          <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
           <br/>
           <p>
           The main positive effects of sponsoring the Software Engineering podcasts is to be able 
@@ -126,6 +129,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
       {/*section5 how it works*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
+        <h3 style={{textAlign:"center"}}>Reserva Altos del Lircay: Biodiversidad del territorio </h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93922.03395694563!2d-70.98894498831368!3d-35.62763872501315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9665657276ea4a2d%3A0x59f3837c1bd2136b!2sAltos%20de%20Lircay%20Reserva%20Nacional!5e1!3m2!1sen!2scl!4v1690239846487!5m2!1sen!2scl"    
         width="100%" 
         height="450" 
@@ -134,7 +138,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
         referrerpolicy="no-referrer-when-downgrade"
         title="Vilches Alto Map"></iframe>
           {" "}
-          <h3>How it works? </h3>
+         
           <p>
             We love to personally report about our experience with your product.
             This also yields the best results. Therefore, whenever possible, we
@@ -222,7 +226,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           </p>
         </div>
       </div>
-      {/*section10 Ready to get in*/}
+      {/*section10 Ready to get in
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
           <div className="d-flex justify-content-center">
@@ -231,8 +235,8 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
             </a>
           </div>
         </div>
-      </div>
-      {/*section11*/}{" "}
+      </div>*/}
+      {/*section11 {" "}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <p>
@@ -244,7 +248,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
             downloaded episodes reach around 5,000 people.
           </p>
         </div>
-      </div>
+      </div>*/}
       {/*Demographics*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
@@ -289,7 +293,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
         </div>
       </div>
       
-      <Newsletter />
+      
         
       <video className={styles.video02} src={index02} autoPlay loop muted />
       
