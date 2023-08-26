@@ -1,9 +1,9 @@
 {
-  "name": "software-engineering-unlocked",
+  "name": "del-lapiz-al-microfono",
   "version": "1.0.0",
   "private": true,
-  "description": "Software Engineering Unlocked",
-  "author": "Michaela Greiler-Göritzer",
+  "description": "Del lápiz al microfono",
+  "author": "Julio Díaz Pérez",
   "keywords": [
     "gatsby"
   ],

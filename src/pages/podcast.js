@@ -77,21 +77,21 @@ export default function Home({ data }) {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={instagram} alt="subscribe via iTunes" />
+              <img src={instagram} alt="subscribe via Instagram" />
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=61550348950631"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={facebook} alt="subscribe via Twitter" />
+              <img src={facebook} alt="subscribe via Facebook" />
             </a>
             <a
               href="https://www.youtube.com/us/show/465682"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={youtube} alt="subscribe via Deezer" />
+              <img src={youtube} alt="subscribe via Youtube" />
             </a>
           </div>
         </div>

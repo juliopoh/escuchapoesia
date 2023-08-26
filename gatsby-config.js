@@ -1,18 +1,18 @@
 require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.delapizalmicrofono.cl",
+    siteUrl: "https://www.dellapizalmicrofono.cl",
     title: "Del lápiz al micrófono",
     author: {
       name: `Julio Díaz Pérez`,
-      summary: `who not is obsessed with making code reviews your superpower.`,
+      summary: `Nothin i'm.`,
     },
     description: `Escritura y podcast desde la montaña.`,
     siteUrl: `https://www.delapizalmicrofono.cl`,
     social: {
       twitter: `mgreiler`,
     },
-    keywords: `tech podcast, software quality, code reviews, technology podcast, software engineering podcast, programming podcast, literatura, montaña, vilches, maule`,
+    keywords: `software podcast, podcast, literatura, montaña, vilches, maule`,
     defaultogimage: `/og-image.png`,
   },
   trailingSlash: "always",
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
-        domain: `software-engineering-unlocked.com`,
+        domain: `dellapizalmicrofono.cl`,
       },
     },
     {
@@ -99,7 +99,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "SE Unlocked RSS Feed",
+            title: "Del lápiz al micrófono RSS Feed",
           },
         ],
       },
@@ -108,14 +108,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.software-engineering-unlocked.com`,
+        siteUrl: `https://www.dellapizalmicrofono.cl`,
       },
     },
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/Software_Engineering_Unlocked_FavIcon.png",
+        icon: "src/images/isokid.png",
       },
     },
     {
