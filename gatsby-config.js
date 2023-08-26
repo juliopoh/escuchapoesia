@@ -5,10 +5,10 @@ module.exports = {
     title: "Del lápiz al micrófono",
     author: {
       name: `Julio Díaz Pérez`,
-      summary: `Nothin i'm.`,
+      summary: `Nothing i'm.`,
     },
     description: `Escritura y podcast desde la montaña.`,
-    siteUrl: `https://www.delapizalmicrofono.cl`,
+    siteUrl: `https://www.dellapizalmicrofono.cl`,
     social: {
       twitter: `mgreiler`,
     },

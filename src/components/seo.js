@@ -109,7 +109,7 @@ const Seo = ({
         },
         {
           property: `twitter:image:alt`,
-          content: imageAlt || "se-unlocked.com social preview",
+          content: imageAlt || "dellapizalmicrofono.cl social preview",
         },
         {
           name: `keywords`,
@@ -121,9 +121,9 @@ const Seo = ({
 };
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `es`,
   meta: [],
-  description: `Your favorite Software Engineering Podcast.`,
+  description: `Del lápiz al micrófono: Escritura y podcast desde la montaña.`,
 };
 
 Seo.propTypes = {
