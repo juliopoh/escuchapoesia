@@ -68,12 +68,12 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
           <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
           <br/>
           <p>
-          Simple, creemos que es un medio perfecto para la expresión y la palabra, que además facilita su circulación en la audencia de distintos lugares.
-          También creemos que pone en contacto a los estudiantes de la ruralidad con las tecnologías de la información y la comunicación, las que llevan algunos años instalándose en la rutina de las personas en la ciudad.
+          Pensamos que puede ser un medio perfecto para llamar la atención de l@s niñ@s, y una vía para su libre expresión por medio de la palabra, el sonido, y también el ruido. 
+          
           </p>
           <br/>
           <p>
-         
+          Así mismo,  permite a l@s estudiantes de una ruralidad particular, ponerse en contacto con alguna de las últimas tecnologías de la información y la comunicación, que llevan un tiempo afianzándose en la cultura urbana, como la plataforma de música Podcast, Youtube, etc. Creemos que esto amplía el campo de observación de su territorio, lo que facilita una interpretación mas nutrida del entorno.
           </p>
         </div>
       </div>
@@ -91,10 +91,10 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       {/*section3 What Sponsor Say*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
-          <h3 style={{textAlign:"center"}}>Vilches, la montaña mágica</h3>
+          <h3 style={{textAlign:"center"}}>Vilches, una montaña mágica</h3>
           <br/>
           <p>
-          A no más de 70 kilómetros de la capital regional (Talca), Vilches se muestra como una localidad montañosa muy atractiva para las distintas personas que la visitan. Hace tres décadas se fundó la Rerserva Altos del Lircay, lo que impulsó el turismo en la zona. La cantidad de quebradas, riachuelos, cimas y bosques han despertado la curiosidad de variados científicos como biólogos y geólogos, ya que gracias a su accidentada geografía conserva sectores con muy baja intervención artificial.
+          A no más de 70 kilómetros de la capital regional (Talca), Vilches se muestra como una localidad montañosa muy atractiva para las distintas personas que la visitan. Hace tres décadas se fundó la Rerserva Altos del Lircay, lo que impulsó el turismo en la zona. La cantidad de quebradas, riachuelos, cimas y bosques han despertado la curiosidad de científicos como biólogos y geólogos, ya que gracias a su accidentada geografía conserva sectores con baja intervención artificial.
           </p>
           <br/>
           <p>
@@ -341,12 +341,12 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
 
         <h2>Sesión 4:<br/>Aproximación al podcast 📻</h2>
         <p>
-        Se presentaron los equipos de audio y grabación que servirán para el registro del podcast. Se ensayaron volumenes de voz, ejercicios vocales, y una charla de buenas prácticas en el estudio de grabación.
+        Se hizo una presentación de conceptos asociados al podcast y la grabación de audio. También se presentaron los equipos de grabación para el registro del podcast. Se ensayaron volumenes de voz, ejercicios vocales, y una charla de buenas prácticas en el estudio de grabación.
         </p>
 
-        <h2>Sesión 5:<br/>Grabación 🎤</h2>
+        <h2>Sesión 5:<br/>1era Grabación 🎤</h2>
         <p>
-        Se graba la versión final del podcast, luego de afinar y ensayar los textos de cada estudiante.
+        Se graban los primeros registros del podcast, se de énfasis a la entrada del podcast (intro), se seleccionan las voces principales.
         </p>
 
         <h2>Sesión 6:<br/>Encuentro con escritores 🕵️‍♀️</h2>
@@ -358,10 +358,17 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
         <p>
           Conversatorio junto a Felipe Moncada y Jonathan Opazo, ambos poetas de la región del Maule.
         </p>
-
-        <h2>Sesión 8:<br/>Cierre de taller 💥</h2>
+        <h2>Sesión 8, 9 y 10:<br/>Grabación 🎤</h2>
         <p>
-          Para cerrar el taller se hace la presentación oficial del podcast de cada escuela, y se lleva a cabo el lanzamiento con el libro que resume las actividades que se desarrollaron en el proyecto.
+        Se graba parte importante del contenido, principalmente los textos con la narrativa de cada estudiante.
+        </p>
+        <h2>Sesión 11:<br/>Últimos detalles 🎧</h2>
+        <p>
+        Grabación final del podcast, se afinan últimos detalles de edición, presentación a los alumnos de la pista completa.
+        </p>
+        <h2>Sesión 12:<br/>Cierre de taller 💥</h2>
+        <p>
+          Para cerrar el taller se hace la presentación oficial del podcast de cada escuela, en este acto también se hace el lanzamiento de libro que relata parte de la experiencia vivida en el taller.
         </p>
       </Container>
       <video className={styles.video02} src={index02} autoPlay loop muted />
