@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import * as styles from "../styles/home.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import rss from "../images/RSS-Feed-blue-sm.png";
-import pod from "../images/google-podcast-blue-sm.png";
+import spot from "../images/spotify_logo.png";
 import youtube from "../images/youtube-blue-sm.png";
 import instagram from "../images/instagram-blue-sm.png";
 import facebook from "../images/facebook-logo-sm-blue.png";
@@ -53,24 +53,17 @@ export default function Home({ data }) {
       <section className="follow-us">
         <div className="follow-us-text">
           <h2>Si no quieres perderte los nuevos episodios
-            <br/>síguenos en Spotify, Google y en nuestras redes sociales</h2>
+            <br/>síguenos en Spotify y en nuestras redes sociales</h2>
           <div class="p-3 body-bg">
           
           </div>
           <div className="icons">
-            <a
-              href="https://anchor.fm/s/e816739c/podcast/rss"
+           <a
+              href="https://open.spotify.com/show/3as6D7zbBd0sOzH0IDQfXz"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={rss} alt="subscribe via RSS feed" />
-            </a>
-            <a
-              href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9LMV9tdjBDSg=="
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={pod} alt="subscribe via Google podcast" />
+              <img src={spot} alt="subscribe via Spotify podcast" />
             </a>
             <a
               href="https://www.instagram.com/del_lapiz_al_microfono/"
@@ -92,6 +85,13 @@ export default function Home({ data }) {
               rel="noreferrer"
             >
               <img src={youtube} alt="subscribe via Youtube" />
+            </a>
+            <a
+              href="https://anchor.fm/s/e816739c/podcast/rss"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={rss} alt="subscribe via RSS feed" />
             </a>
           </div>
         </div>

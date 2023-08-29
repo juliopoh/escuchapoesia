@@ -10,11 +10,6 @@ export default function Header() {
       name: "spotify",
       title: "Spotify",
       href: "https://open.spotify.com/show/3as6D7zbBd0sOzH0IDQfXz",
-    },  
-    {
-      name: "google-podcasts",
-      title: "Google Podcasts",
-      href: "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9LMV9tdjBDSg==",
     },
     {
       name: "facebook",

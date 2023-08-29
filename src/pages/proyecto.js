@@ -277,56 +277,6 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
           </Row>
         </div>
       </div>*/}
-       <Container className="guest-guide pt-3 pb-5">
-        <h1 className="pt-5">Sesiones del taller</h1>
-        <p>
-          El proyecto contempló un cronograma de actividades que se ha llevado a cabo a partir de mayo hasta octubre 2023.
-        </p>
-
-        <h2>Sesión 1: Crea tu libro-bitácora 📔</h2>
-        <p>
-        Manufacturación guiada de un libro encuadernado. Se revisó el proceso de encuadernación mediante tres técnicas distintas.
-        <br/>1. Encuadernación semi-industrial con Hotmelera. 
-        <br/>2. Encuadernación artesanal con prensas, hilos de volantín, sierra y cola-fría. 
-        <br/>3. Perforación y anillado.
-        <br/>Los libros confeccionados durante la sesión fueron utilizados como bitácora de registro por los estudiantes durante el periodo de implementación del taller.
-        </p>
-        
-        <h2>Sesión 2: Aproximación a la escritura ✏️</h2>
-        <p>
-        Escritura de Haiku. Textos literarios y Naturaleza. Se presentaron tres tipos de texto relacionados con la naturaleza: haiku, piam y fábula, profundizando en el primero. A través del ejemplo de un 'pie forzado' (Versos de distintos escritores orientales antiguos) se promovió la elaboración guiada de un texto en la bitácora, ambientado en escenas del entorno natural de la escuela o el hogar, con un mínimo de rigor métrico, contabilizando las sílabas del primer (5) segundo (7) y tercer (5) verso.
-        </p>
-       
-        <h2>Sesión 3: Un tesoro en la biblioteca 📚</h2>
-        <p>
-        Aproximación a tipos de géneros literarios, datos de edición y modos de cita bibliográfica (Referencias). Lxs estudiantes realizaron la búsqueda activa de textos en libros de la biblioteca con la orientación de los monitores. Se establecieron rangos etáreos para orientar la selección de libros y textos según el nivel de desarrollo lector de cada estudiante. Luego se acompañó la escritura (copia) de los textos escogidos en libro personal, incluyendo citas bibliográficas. 
-        </p>
-
-        <h2>Sesión 4: Aproximación al podcast 📻</h2>
-        <p>
-        Se presentaron los equipos de audio y grabación que servirán para el registro del podcast. Se ensayaron volumenes de voz, ejercicios vocales, y una charla de buenas prácticas en el estudio de grabación.
-        </p>
-
-        <h2>Sesión 5: Grabación 🎤</h2>
-        <p>
-        Se graba la versión final del podcast, luego de afinar y ensayar los textos de cada estudiante.
-        </p>
-
-        <h2>Sesión 6: Encuentro con escritores 🕵️‍♀️</h2>
-        <p>
-        Conversatorio junto a Masiel Zagal, escritora maulina, proveniente de Panimávida.
-        </p>
-
-        <h2>Sesión 7: Encuentro con escritores 🕵</h2>
-        <p>
-          Conversatorio junto a Felipe Moncada y Jonathan Opazo, ambos poetas de la región del Maule.
-        </p>
-
-        <h2>Sesión 8: Cierre de taller 💥</h2>
-        <p>
-          Para cerrar el taller se hace la presentación oficial del podcast de cada escuela, y se lleva a cabo el lanzamiento con el libro que resume las actividades que se desarrollaron en el proyecto.
-        </p>
-      </Container>
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <h3 style={{textAlign:"center"}}>Equipo del proyecto</h3>
@@ -364,17 +314,56 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
           </Row>
         </div>
       </div>
-      <div className={styles.gradient_section}>
-        <div className={styles.sponsor_container}>
-          <h1 className={styles.text_left}>Libro en PDF</h1>
-          <p className="mt-4">Puedes descargar el libro Del lápiz al micrófono, que reúne en escrito la experiencia de fomento a la lecto-escritura.</p>
-          <br/>
-          <br/>
-          <a href="https://dellapizalmicrofono.cl">
-              <button className={styles.button}>Descargar</button>
-            </a>
-        </div>
-      </div>
+       <Container className="guest-guide pt-3 pb-5">
+        <h1 className="pt-5">Sesiones del taller</h1>
+        <p>
+          El proyecto contempló un cronograma de actividades que se ha llevado a cabo a partir de mayo hasta octubre 2023.
+        </p>
+
+        <h2>Sesión 1:<br/>Crea tu libro-bitácora 📔</h2>
+        <p>
+        Manufacturación guiada de un libro encuadernado. Se revisó el proceso de encuadernación mediante tres técnicas distintas.
+        <br/>1. Encuadernación semi-industrial con Hotmelera. 
+        <br/>2. Encuadernación artesanal con prensas, hilos de volantín, sierra y cola-fría. 
+        <br/>3. Perforación y anillado.
+        <br/>Los libros confeccionados durante la sesión fueron utilizados como bitácora de registro por los estudiantes durante el periodo de implementación del taller.
+        </p>
+        
+        <h2>Sesión 2:<br/>Aproximación a la escritura ✏️</h2>
+        <p>
+        Escritura de Haiku. Textos literarios y Naturaleza. Se presentaron tres tipos de texto relacionados con la naturaleza: haiku, piam y fábula, profundizando en el primero. A través del ejemplo de un 'pie forzado' (Versos de distintos escritores orientales antiguos) se promovió la elaboración guiada de un texto en la bitácora, ambientado en escenas del entorno natural de la escuela o el hogar, con un mínimo de rigor métrico, contabilizando las sílabas del primer (5) segundo (7) y tercer (5) verso.
+        </p>
+       
+        <h2>Sesión 3:<br/>Un tesoro en la biblioteca 📚</h2>
+        <p>
+        Aproximación a tipos de géneros literarios, datos de edición y modos de cita bibliográfica (Referencias). Lxs estudiantes realizaron la búsqueda activa de textos en libros de la biblioteca con la orientación de los monitores. Se establecieron rangos etáreos para orientar la selección de libros y textos según el nivel de desarrollo lector de cada estudiante. Luego se acompañó la escritura (copia) de los textos escogidos en libro personal, incluyendo citas bibliográficas. 
+        </p>
+
+        <h2>Sesión 4:<br/>Aproximación al podcast 📻</h2>
+        <p>
+        Se presentaron los equipos de audio y grabación que servirán para el registro del podcast. Se ensayaron volumenes de voz, ejercicios vocales, y una charla de buenas prácticas en el estudio de grabación.
+        </p>
+
+        <h2>Sesión 5:<br/>Grabación 🎤</h2>
+        <p>
+        Se graba la versión final del podcast, luego de afinar y ensayar los textos de cada estudiante.
+        </p>
+
+        <h2>Sesión 6:<br/>Encuentro con escritores 🕵️‍♀️</h2>
+        <p>
+        Conversatorio junto a Masiel Zagal, escritora maulina, proveniente de Panimávida.
+        </p>
+
+        <h2>Sesión 7:<br/>Encuentro con escritores 🕵</h2>
+        <p>
+          Conversatorio junto a Felipe Moncada y Jonathan Opazo, ambos poetas de la región del Maule.
+        </p>
+
+        <h2>Sesión 8:<br/>Cierre de taller 💥</h2>
+        <p>
+          Para cerrar el taller se hace la presentación oficial del podcast de cada escuela, y se lleva a cabo el lanzamiento con el libro que resume las actividades que se desarrollaron en el proyecto.
+        </p>
+      </Container>
       <video className={styles.video02} src={index02} autoPlay loop muted />
     </Layout>
   );

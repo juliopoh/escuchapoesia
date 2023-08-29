@@ -51,7 +51,7 @@ export default function PostsDetails({ data }) {
       <div dangerouslySetInnerHTML={{ __html: transcript.html }} />
     );
   } else {
-    transcript_html = <p>Transcript coming soon...</p>;
+    transcript_html = <p>...</p>;
   }
 
   return (
@@ -83,7 +83,7 @@ export default function PostsDetails({ data }) {
             /> */}
             {/* {<div dangerouslySetInnerHTML={{ __html: html }} />} */}
             {<div dangerouslySetInnerHTML={{ __html: html }} />}
-            {transcript_html}
+            {/* {transcript_html}*/}
           </div>
         </div>
       </Container>
