@@ -2,12 +2,12 @@
 title: "Teaser: Del lápiz al micrófono"
 date: "2023-07-13T10:35:30+00:00"
 status: publish
-permalink: /teaser-software-engineering-unlocked
-author: michaela
+permalink: /teaser-1-vilches-alto
+author: jlp
 excerpt: "Con este teaser damos comienzo al podcast 'Del lápiz al micrófono: Escritura y podcast desde la montaña'"
 type: post
 id: 369
-thumbnail_alt: "Picture of podcast guest"
+thumbnail_alt: "Teaser 1 - Vilches Alto"
 thumbnail: ../teaser-2/teaser2.jpg
 category:
   - "Company Culture"

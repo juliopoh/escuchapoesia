@@ -59,7 +59,7 @@ export default function Home({ data }) {
           </div>
           <div className="icons">
             <a
-              href="https://feeds.simplecast.com/K1_mv0CJ"
+              href="https://anchor.fm/s/e816739c/podcast/rss"
               target="_blank"
               rel="noreferrer"
             >
@@ -87,7 +87,7 @@ export default function Home({ data }) {
               <img src={facebook} alt="subscribe via Facebook" />
             </a>
             <a
-              href="https://www.youtube.com/us/show/465682"
+              href="https://www.youtube.com/channel/UC6g0vx4LMYN1oOvRdPMgmyA"
               target="_blank"
               rel="noreferrer"
             >

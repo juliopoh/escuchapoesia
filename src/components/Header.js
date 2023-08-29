@@ -9,7 +9,7 @@ export default function Header() {
     {
       name: "spotify",
       title: "Spotify",
-      href: "https://open.spotify.com/show/2wz1OneBIDXpbBYeuyIsJL?si=2I0R0HuaTLK6RT0f7lDIFg&nd=1",
+      href: "https://open.spotify.com/show/3as6D7zbBd0sOzH0IDQfXz",
     },  
     {
       name: "google-podcasts",
@@ -29,12 +29,12 @@ export default function Header() {
     {
       name: "yt",
       title: "YouTube",
-      href: "https://www.youtube.com/channel/UCWVxDd-f0EbQ_t56MyLobqw",
+      href: "https://www.youtube.com/channel/UC6g0vx4LMYN1oOvRdPMgmyA",
     },
     {
       name: "rss",
       title: "RSS",
-      href: "https://rss.app/feeds/LzmQRqajnmep6gwA.xml",
+      href: "https://anchor.fm/s/e816739c/podcast/rss",
     },
   ];
 

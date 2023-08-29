@@ -3,9 +3,8 @@ import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import * as styles from "../styles/sponsor.module.css";
 import { StaticImage } from "gatsby-plugin-image";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import index02 from "../uploads/videos/index02.mp4"
+import { Row, Card, Col, Container } from "react-bootstrap";
+import index02 from "../uploads/videos/index02.mp4";
 
 export default function Sponsorship() {
   return (
@@ -28,12 +27,59 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
           <p>
             A través de su ejecución, se espera <b>impulsar la capacidad expresiva de los estudiantes, estimulando su imaginación y memoria emotiva con el territorio</b>, como también, acercarlos al ecosistema del libro, poniéndolos en contacto con editores, escritores y encuadernadores de la región del Maule.
           </p>
+          <div className={styles.section_1}>
+        <div className={styles.sponsor_container}>
+          <Row className="mt-4 ml-4 mr-4">
+            <Col sm={12} md={6} lg={6}>
+              <div className={styles.sponsor_container}>
+              <StaticImage
+                src="../images/escuela_robles.jpg"
+                alt="Escuela Los Robles"
+              />
+              <h5>
+                {" "}
+                Escuela Los Robles
+                <br/> Vilches Centro, San Clemente
+                 </h5>
+              </div>
+            </Col>
+            <Col sm={12} md={6} lg={6}>
+            <div className={styles.sponsor_container}>
+            <StaticImage
+                src="../images/escuela_vilches.jpg"
+                alt="Escuela Vilches Alto"
+              />
+              <h5>
+              {" "}
+              Escuela Vilches Alto
+              <br/> Vilches Alto, San Clemente
+                </h5>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </div>
+        </div>
+      </div>
+      <div className={styles.section_2}>
+        <div className={styles.sponsor_container}>
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
+          {" "}
+          <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
+          <br/>
+          <p>
+          Simple, creemos que es un medio perfecto para la expresión y la palabra, que además facilita su circulación en la audencia de distintos lugares.
+          También creemos que pone en contacto a los estudiantes de la ruralidad con las tecnologías de la información y la comunicación, las que llevan algunos años instalándose en la rutina de las personas en la ciudad.
+          </p>
+          <br/>
+          <p>
+         
+          </p>
         </div>
       </div>
       {/*section2*/}
       <div className={styles.section_2}>
       <section className={styles.vilchesTerrain}>
-       
        </section>{" "}
        {/* } <div className={`${styles.sponsor_container} ${styles.text_left}`}>
           <p className={`${styles.text_left}`}>Localidad : Vilches Alto</p>
@@ -43,58 +89,22 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       */}
       </div>
       {/*section3 What Sponsor Say*/}
-      <div className={styles.section_1}>
+      <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
-          <h3 style={{textAlign:"right"}}>Palabras desde la montaña...</h3>
-          <Row className="mt-4 ml-4 mr-4">
-            <Col sm={12} md={6} lg={6}>
-              <div className={styles.team_image}>
-              <StaticImage
-                src="../images/grupo.jpg"
-                alt="Tracy Phillips sponsoring the podcast"
-              />
-              </div>
-            </Col>
-            <Col sm={12} md={6} lg={6}>
-              <p className={styles.italic}>
-                {" "}
-                Sponsoring Software Engineering Unlocked was fun and worth the
-                investment! Working with Michaela is always great – she was very
-                attentive to our advertising goals, spent time learning about
-                our product, and spoke about us to her audience from a place of
-                true authenticity. We saw real engagement after the ads and are
-                excited to continue working with her in the future.
-              </p>
-              <p className={styles.italic}>
-                Tracy Phillips, Co-Founder at CodeSubmit
-              </p>
-            </Col>
-          </Row>
+          <h3 style={{textAlign:"center"}}>Vilches, la montaña mágica</h3>
+          <br/>
+          <p>
+          A no más de 70 kilómetros de la capital regional (Talca), Vilches se muestra como una localidad montañosa muy atractiva para las distintas personas que la visitan. Hace tres décadas se fundó la Rerserva Altos del Lircay, lo que impulsó el turismo en la zona. La cantidad de quebradas, riachuelos, cimas y bosques han despertado la curiosidad de variados científicos como biólogos y geólogos, ya que gracias a su accidentada geografía conserva sectores con muy baja intervención artificial.
+          </p>
+          <br/>
+          <p>
+         
+          </p>
         </div>
       </div>
-      <div className={styles.section_1}>
-        <div className={styles.sponsor_container}>
-          <Row className="mt-4 ml-4 mr-4">
-            <Col sm={6} md={6} lg={6}>
-              <StaticImage
-                src="../images/escuela_vilches.jpg"
-                alt="Elena Boroda Fiberplane sponsoring the podcast"
-              />
-            </Col>
-            <Col sm={12} md={6} lg={6}>
-              <p className={styles.italic}>
-                {" "}
-                We sponsored SE Unlocked when launching our public beta and found it to be a smooth and worthwhile experience. The collaboration was highly pleasant, from first contact until the release and distribution of the episode, with a fast turnaround time. The ability to present our product in a 45 min episode allowed us to really dive deep into the product and was a great fit for the launch.
-Michaela proactively provided us with a thought-provoking interview outline and worked with us to fine-tune it. As the interview was only scripted enough to spark the initial conversation, we were able to present our product authentically and this made the episode educational and informative for the listener
-Michaela was a great interviewer too; overall we had a fantastic experience and would easily recommend SE Unlocked.
-              </p>
-              <p className={styles.italic}>
-              Elena Boroda, Head of Marketing at Fiberplane
-              </p>
-            </Col>
-          </Row>
-        </div>
-      </div>
+
+    
+     
       {/*section4
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
@@ -107,25 +117,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
       </div>
       */}
       {/*why sponsor*/}
-      <div className={styles.section_2}>
-        <div className={styles.sponsor_container}>
-        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
-          {" "}
-          <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
-          <br/>
-          <p>
-          The main positive effects of sponsoring the Software Engineering podcasts is to be able 
-          to <i>build brand awareness</i>, <i>create a positive association</i> with the product, and <i>reach a very targeted audience</i>. 
-          </p>
-          <br/>
-          <p>
-          You have to imagine that podcast listeners have a very strong relationship with the podcast and with me as the host. 
-          They spend several hours per month listening to my show, and the audience is highly educated and often in a position 
-          to make purchasing decisions in their company. This is also the reason why it's important that there is a great 
-          match between your product and my audience. 
-          </p>
-        </div>
-      </div>
+     
       {/*section5 how it works*/}
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
@@ -140,22 +132,26 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           {" "}
          
           <p>
-            We love to personally report about our experience with your product.
-            This also yields the best results. Therefore, whenever possible, we
-            want to make sure to test out the product, or see it in action via a
-            demo.
+          La unidad <strong>Altos de Lircay</strong> está ubicada en la Región del Maule, provincia de Talca, comuna de San Clemente. Fue creada el 11 de junio de 1996.
+La unidad destaca por la protección de las especies de fauna como el <strong>pudú, el puma y la loica</strong>. En lo que a flora se refiere está el <strong>hualo y huala, clasificadas como vulnerables.</strong>
           </p>
           <p>
-            In addition, we offer to work with you on your ad message, so that
-            your message feels authentic and keeps the tone of the show.
+            Entre los lugares más destacados podríamos nombrar:</p>
+            <p>
+         <strong>Laguna del Alto</strong>: 20 kilómetros. Duración del recorrido a pie: 8 horas. Sendero en parte bajo el bosque nativo de robles, coigües y ñirres y estepa altoandina alcanza la laguna, luego de una fuerte subida y similar bajada<br/>
+
+          <strong>El Enladrillado:</strong> 20 km. Duración del recorrido a pie: 8 horas. Llegar a la planicie de grandes rocas fracturadas, que se asemejan a grandes ladrillos, y donde se observa la gran cadena de volcanes donde destaca el <strong>Descabezado Grande, el Cerro Azul y el Quizapú; este último hizo erupción el año 1932</strong>.<br/>
+
+         <strong>Aliwenmahuida:</strong> 900 metros. Duración del recorrido a pie: 1 hora. Sendero de interpretación ambiental, todo bajo bosque nativo, con paneles informativos apropiados termina en un espectacular mirador hacia el río Lircay y el cerro el Morillo;<br/>
+
+         <strong>Mirador El Peine:</strong> 4 km total. Duración del recorrido 3 hrs. Sendero con pendiente activa que llega a miradores naturales en ladera de Cerro El Peine.
           </p>
-          <p>
-            Alternatively, you can also send us our favorite script that we
-            read.
+          <p style={{textAlign:"right"}}>
+           * Información extraída de <a href="https://www.conaf.cl/parques/reserva-nacional-altos-de-lircay/" target="_blank" rel="noreferrer"> Conaf</a>
           </p>
         </div>
       </div>
-            {/*section Ad Formats*/}
+            {/*section Ad Formats
             <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
           {" "}
@@ -173,8 +169,8 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           succession to help listeners remember the brand and product.
           </p>
         </div>
-      </div>
-      {/* Donation section section8 */}
+      </div>*/}
+      {/* Donation section section8 
       <div className={styles.donation}>
         <div className={styles.sponsor_container}>
           <h1>What you will get</h1>
@@ -203,8 +199,8 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
             </li>
           </ul>
         </div>
-      </div>
-      {/*section9*/}{" "}
+      </div>*/}
+      {/*section9{" "}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
         <h3>Topics of the Software Engineering Unlocked podcast</h3>
@@ -225,7 +221,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
             engineering cultures.
           </p>
         </div>
-      </div>
+      </div>*/}
       {/*section10 Ready to get in
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
@@ -249,7 +245,7 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           </p>
         </div>
       </div>*/}
-      {/*Demographics*/}
+      {/*Demographics
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
           <Row>
@@ -280,6 +276,93 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
             </Col>
           </Row>
         </div>
+      </div>*/}
+       <Container className="guest-guide pt-3 pb-5">
+        <h1 className="pt-5">Sesiones del taller</h1>
+        <p>
+          El proyecto contempló un cronograma de actividades que se ha llevado a cabo a partir de mayo hasta octubre 2023.
+        </p>
+
+        <h2>Sesión 1: Crea tu libro-bitácora 📔</h2>
+        <p>
+        Manufacturación guiada de un libro encuadernado. Se revisó el proceso de encuadernación mediante tres técnicas distintas.
+        <br/>1. Encuadernación semi-industrial con Hotmelera. 
+        <br/>2. Encuadernación artesanal con prensas, hilos de volantín, sierra y cola-fría. 
+        <br/>3. Perforación y anillado.
+        <br/>Los libros confeccionados durante la sesión fueron utilizados como bitácora de registro por los estudiantes durante el periodo de implementación del taller.
+        </p>
+        
+        <h2>Sesión 2: Aproximación a la escritura ✏️</h2>
+        <p>
+        Escritura de Haiku. Textos literarios y Naturaleza. Se presentaron tres tipos de texto relacionados con la naturaleza: haiku, piam y fábula, profundizando en el primero. A través del ejemplo de un 'pie forzado' (Versos de distintos escritores orientales antiguos) se promovió la elaboración guiada de un texto en la bitácora, ambientado en escenas del entorno natural de la escuela o el hogar, con un mínimo de rigor métrico, contabilizando las sílabas del primer (5) segundo (7) y tercer (5) verso.
+        </p>
+       
+        <h2>Sesión 3: Un tesoro en la biblioteca 📚</h2>
+        <p>
+        Aproximación a tipos de géneros literarios, datos de edición y modos de cita bibliográfica (Referencias). Lxs estudiantes realizaron la búsqueda activa de textos en libros de la biblioteca con la orientación de los monitores. Se establecieron rangos etáreos para orientar la selección de libros y textos según el nivel de desarrollo lector de cada estudiante. Luego se acompañó la escritura (copia) de los textos escogidos en libro personal, incluyendo citas bibliográficas. 
+        </p>
+
+        <h2>Sesión 4: Aproximación al podcast 📻</h2>
+        <p>
+        Se presentaron los equipos de audio y grabación que servirán para el registro del podcast. Se ensayaron volumenes de voz, ejercicios vocales, y una charla de buenas prácticas en el estudio de grabación.
+        </p>
+
+        <h2>Sesión 5: Grabación 🎤</h2>
+        <p>
+        Se graba la versión final del podcast, luego de afinar y ensayar los textos de cada estudiante.
+        </p>
+
+        <h2>Sesión 6: Encuentro con escritores 🕵️‍♀️</h2>
+        <p>
+        Conversatorio junto a Masiel Zagal, escritora maulina, proveniente de Panimávida.
+        </p>
+
+        <h2>Sesión 7: Encuentro con escritores 🕵</h2>
+        <p>
+          Conversatorio junto a Felipe Moncada y Jonathan Opazo, ambos poetas de la región del Maule.
+        </p>
+
+        <h2>Sesión 8: Cierre de taller 💥</h2>
+        <p>
+          Para cerrar el taller se hace la presentación oficial del podcast de cada escuela, y se lleva a cabo el lanzamiento con el libro que resume las actividades que se desarrollaron en el proyecto.
+        </p>
+      </Container>
+      <div className={styles.section_1}>
+        <div className={styles.sponsor_container}>
+          <h3 style={{textAlign:"center"}}>Equipo del proyecto</h3>
+          <Row xs={1} md={3}>
+          <Col>
+            <Card>
+             <StaticImage src="../images/team/alfonso.jpg"
+                alt="Alfonso Medrano" />
+                <Card.Body>
+                  <Card.Title><strong>Alfonso Medrano</strong><br/>Psicólogo Educacional y Editor</Card.Title>
+                  <h4>Coordinador del proyecto. Guiado del taller. Grabación del podcast. Elaboración del libro resumen del proyecto.</h4>
+                  </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <StaticImage src="../images/team/carol.jpg"
+                alt="Carol Alvarado" />
+                <Card.Body>
+                  <Card.Title><strong>Carol Alvarado</strong><br/>Psicólogo Educacional y Gestor Cultural</Card.Title>
+                  <h4>Guiado del taller. Inducción técnica para manipulación de equipos y dispositivos de grabación de audio. Grabación y edición del podcast.</h4>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+            <Card>
+            <StaticImage src="../images/team/julio.jpg"
+                alt="Julio Díaz" />
+                <Card.Body>
+                <Card.Title><strong>Julio Díaz</strong><br/>Diseñador gráfico y Editor</Card.Title>
+                  <h4>Inducción técnica a la encuadernación. Registro audiovisual. Edición del libro y gráfica del proyecto. </h4>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </div>
       </div>
       <div className={styles.gradient_section}>
         <div className={styles.sponsor_container}>
@@ -287,16 +370,12 @@ Michaela was a great interviewer too; overall we had a fantastic experience and 
           <p className="mt-4">Puedes descargar el libro Del lápiz al micrófono, que reúne en escrito la experiencia de fomento a la lecto-escritura.</p>
           <br/>
           <br/>
-          <a href="https://code-review-workshop.typeform.com/to/Cap63J">
+          <a href="https://dellapizalmicrofono.cl">
               <button className={styles.button}>Descargar</button>
             </a>
         </div>
       </div>
-      
-      
-        
       <video className={styles.video02} src={index02} autoPlay loop muted />
-      
     </Layout>
   );
 }
