@@ -287,7 +287,7 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
                 alt="Alfonso Medrano" />
                 <Card.Body>
                   <Card.Title><strong>Alfonso Medrano</strong><br/>Psicólogo Educacional y Editor</Card.Title>
-                  <h4>Coordinador del proyecto. Guiado del taller. Grabación del podcast. Elaboración del libro resumen del proyecto.</h4>
+                  <h4>Coordinador del proyecto. Monitor. Grabación del podcast. Editor libro 'Del lápiz al micrófono'.</h4>
                   </Card.Body>
               </Card>
             </Col>
@@ -297,7 +297,7 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
                 alt="Carol Alvarado" />
                 <Card.Body>
                   <Card.Title><strong>Carol Alvarado</strong><br/>Psicólogo Educacional y Gestor Cultural</Card.Title>
-                  <h4>Guiado del taller. Inducción técnica para manipulación de equipos y dispositivos de grabación de audio. Grabación y edición del podcast.</h4>
+                  <h4>Monitor. Responsable del diseño metodológico del proyecto. Editor del podcast.</h4>
                 </Card.Body>
               </Card>
             </Col>
@@ -307,7 +307,7 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
                 alt="Julio Díaz" />
                 <Card.Body>
                 <Card.Title><strong>Julio Díaz</strong><br/>Diseñador gráfico y Editor</Card.Title>
-                  <h4>Inducción técnica a la encuadernación. Registro audiovisual. Edición del libro y gráfica del proyecto. </h4>
+                  <h4>Monitor. Registro audiovisual. Edición y gráfica del proyecto. </h4>
                 </Card.Body>
               </Card>
             </Col>

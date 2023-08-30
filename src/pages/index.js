@@ -19,7 +19,7 @@ export default function GuestGuide() {
        <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <p>
-            <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña</strong> se trata de una iniciativa de fomento lector, orientada a los estudiantes de dos escuelas <i>unidocente</i> de la localidad de Vilches, en la cordillera de San Clemente, región del Maule, Chile.
+            <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña</strong> es una iniciativa de fomento lector implementada en dos escuelas <i>multi-grado</i> de la localidad de Vilches, en la cordillera de San Clemente, región del Maule, Chile.
           </p>
           <p>
             Los establecimientos que participaron del proyecto son <strong>Escuela Vilches Alto</strong> y <strong>Escuela Los Robles</strong>.
