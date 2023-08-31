@@ -18,7 +18,7 @@ export default function Sponsorship() {
       {/*section1*/}
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
-          <p><b>Del lápiz al micrófono, escritura y podcast desde la montaña</b> es una iniciativa de fomento lector financiada por el Fondo del Libro y la Lectura, otorgado por el Ministerio de las Culturas, las Artes y el Patrimonio, en su convocatoria 2022.</p>
+          <p><b>Del lápiz al micrófono, escritura y podcast desde la montaña</b> es una iniciativa de fomento lector financiada por el Fondo Nacional de Fomento del Libro y la Lectura, otorgado por el Ministerio de las Culturas, las Artes y el Patrimonio, en su convocatoria 2023.</p>
           <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton3.png" alt="logo" /></div>
           <p>Dicho proyecto, tiene como objetivo <b>promover la lecto-escritura, la valoración del territorio y el uso de las nuevas tecnologías de información y comunicación (Tic)</b> a través de la implementación de una serie de sesiones de taller con estudiantes de la escuela <b>“Los Robles”</b> y la escuela <b>“Vilches Alto”</b>, de la localidad de Vilches, en la cordillera de San Clemente, región del Maule.</p>
           <p>
@@ -73,7 +73,7 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
           </p>
           <br/>
           <p>
-          Así mismo,  permite a l@s estudiantes de una ruralidad particular, ponerse en contacto con alguna de las últimas tecnologías de la información y la comunicación, que llevan un tiempo afianzándose en la cultura urbana, como la plataforma de música Podcast, Youtube, etc. Creemos que esto amplía el campo de observación de su territorio, lo que facilita una interpretación mas nutrida del entorno.
+          Así mismo,  permite a l@s estudiantes de una ruralidad particular, ponerse en contacto con alguna de las últimas tecnologías de la información y la comunicación, que llevan un tiempo afianzándose en la cultura urbana, como las plataformas Spotify, Youtube, etc. Creemos que esto amplía el campo de observación de su territorio, lo que implica una interpretación mas nutrida del entorno.
           </p>
         </div>
       </div>
@@ -312,6 +312,19 @@ La unidad destaca por la protección de las especies de fauna como el <strong>pu
               </Card>
             </Col>
           </Row>
+        </div>
+      </div>
+      <div className={styles.section_2}>
+        <div className={styles.sponsor_container}>
+          <h3 style={{textAlign:"center"}}>Colaboradores</h3>
+          <br/>
+          <p>
+          Este proyecto no se podría haber realizado sin la colaboración de las profesoras <strong>Daniela Farías</strong> (Vilches Alto) y <strong>Rosalía Venegas</strong> (Escuela Los Robles) y la directora de la escuela Los Robles <strong>Marta Sepúlveda</strong>. También participaron l@s escritor@s <strong>Masiel Zagal, Felipe Moncada y Jonathan Opazo</strong>, llevando a cabo conversatorios sobre el oficio literario.
+          </p>
+          <br/>
+          <p>
+         
+          </p>
         </div>
       </div>
        <Container className="guest-guide pt-3 pb-5">

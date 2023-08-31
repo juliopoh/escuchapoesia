@@ -65,7 +65,7 @@ export default function Footer() {
                 />
             </Col>
             <Col sm={10} md="auto">
-            <h2 >Proyecto financiado por el Fondo del Libro y la Lectura,<br/> línea de Fomento a la lectura y escritura, convocatoria 2022.</h2>             
+            <h2 >Proyecto financiado por el Fondo Nacional de Fomento del Libro y la Lectura, convocatoria 2023.</h2>             
             </Col> 
           </Row>
           <div style={{marginTop:"20px"}}>
