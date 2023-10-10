@@ -4,7 +4,7 @@ date: "2022-08-28T11:50:36+00:00"
 updated: "2022-12-10T05:16:50+00:00"
 status: publish
 permalink: /promo-1-podcast
-author: michaela
+author: jlp
 excerpt: "Audio promocional del podcast"
 type: post
 id: 47
@@ -46,6 +46,6 @@ post_header_image: promo1.jpg
 
 
 <div class="sponsorship">
-Puedes descargar <a href="https://www.dellapizalmicrofono.cl" target="_blank" rel="noreferrer">este libro en PDF</a>, en el que hemos resumido la actividad
+Puedes descargar <a href="https://www.docdroid.net/file/download/jHjH8N1/escritura-y-podcast-web-pdf.pdf" target="_blank" rel="noreferrer">este libro en PDF</a>, en el que hemos resumido la actividad
 </div>
 <br/>

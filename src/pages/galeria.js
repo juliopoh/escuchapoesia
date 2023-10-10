@@ -92,7 +92,7 @@ export default function GuestGuide() {
           <p className="mt-4" >Puedes descargar el libro <strong>Del lápiz al micrófono</strong>, que resume parte de la experiencia de este proyecto de fomento lector.</p>
           <br/>
           <br/>
-          <a href="https://dellapizalmicrofono.cl">
+          <a href="https://www.docdroid.net/file/download/jHjH8N1/escritura-y-podcast-web-pdf.pdf" target="_blank" rel="noreferrer">
               <button className={styles.button}>Descargar</button>
             </a>
         </div>
