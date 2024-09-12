@@ -1,13 +1,13 @@
 require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.dellapizalmicrofono.cl",
-    title: "Del lápiz al micrófono",
+    siteUrl: "https://www.escuchapoesia.cl",
+    title: "Escucha Poesía",
     author: {
       name: `Julio Díaz Pérez`,
       summary: `Nothing i'm.`,
     },
-    description: `Escritura y podcast desde la montaña.`,
+    description: `Audiolibros de poesía chilena.`,
     siteUrl: `https://www.dellapizalmicrofono.cl`,
     social: {
       twitter: `mgreiler`,
@@ -143,7 +143,6 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
-    "gatsby-plugin-instagram",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",

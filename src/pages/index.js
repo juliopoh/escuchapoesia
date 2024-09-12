@@ -10,11 +10,11 @@ export default function GuestGuide() {
       <Seo title="Inicio" />
       <div className={styles.sponsor_container}>
         <h1>
-        Del lápiz al micrófono
+        Escucha poesía
         </h1>
-        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton3.png" alt="logo" /></div> 
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/logo.png" alt="logo" /></div> 
         
-        <p style={{textAlign:"center"}}>Escritura y podcast desde la montaña</p>
+        <p style={{textAlign:"center"}}>Audiolibros de poesía chilena</p>
       </div>
        <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
