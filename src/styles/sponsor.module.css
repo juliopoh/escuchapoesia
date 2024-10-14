@@ -1,7 +1,7 @@
 .sponsor_container {
   width: 1280px;
   max-width: 90%;
-  color: #263669;
+  color: black;
   margin: 0 auto;
   padding: 50px 0px;
 }
@@ -177,4 +177,25 @@ video {
 
 .team_image img {
   border-radius: 50%;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+  background: var(--grey-100);
+}
+
+.episodes h1 {
+  position: relative;
+  margin: 16px 0 8px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--primary-700);
+  text-align: center;
 }

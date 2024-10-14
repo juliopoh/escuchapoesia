@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
- Del lápiz al micrófono: Escritura y podcast desde la montaña
+ Escucha Poesía: Audiolibros de poesía chilena
 </h1>
 Un sitio web para una iniciativa de fomento lector, sin fines de lucro, basado en [Draft of the SE Unlocked Website](https://github.com/mgreiler/se-unlocked-website) 
 
@@ -42,4 +42,5 @@ The main branch of this repository is continuously deployed to Netlify. You can 
   - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
   - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-# Delapizalmicrofono
+# EscuchaPoesía
+# escuchapoesia

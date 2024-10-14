@@ -12,17 +12,14 @@ export default function GuestGuide() {
         <h1>
         Escucha poesía
         </h1>
-        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/logo.png" alt="logo" /></div> 
-        
-        <p style={{textAlign:"center"}}>Audiolibros de poesía chilena</p>
+        <p style={{textAlign:"center"}}>Una colección de audiolibros de poesía chilena actual</p>
       </div>
        <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <p>
-            <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña</strong> es una iniciativa de fomento lector implementada en dos escuelas <i>multi-grado</i> de la localidad de Vilches, en la cordillera de San Clemente, región del Maule, Chile.
-          </p>
-          <p>
-            Los establecimientos que participaron del proyecto son <strong>Escuela Vilches Alto</strong> y <strong>Escuela Los Robles</strong>.
+            <strong>Escucha Poesía: Colección de audiolibros de poesía chilena actual</strong> es una iniciativa que se propone fomentar el acercamiento al libro y al género literario de la poesía a personas ciegas, con discapacidad visual y público general, a través de la producción y difusión de una Colección de audiolibros de poetas chilenos contemporaneos. 
+          
+          
           </p>
         </div>
         </div>

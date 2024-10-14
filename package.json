@@ -1,8 +1,8 @@
 {
-  "name": "del-lapiz-al-microfono",
+  "name": "escucha-poesia",
   "version": "1.0.0",
   "private": true,
-  "description": "Del lápiz al microfono",
+  "description": "Escucha Poesía: Audiolibros de poesía chilena",
   "author": "Julio Díaz Pérez",
   "keywords": [
     "gatsby"

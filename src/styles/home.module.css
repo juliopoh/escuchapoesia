@@ -22,6 +22,19 @@
   color: var(--primary-700);
 }
 
+.episodes h4 {
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--primary-700);
+  margin: 10px;
+}
+.episodes p {
+  margin: 10px;
+}
+
 .episodes h1::after {
   content: "";
   position: absolute;

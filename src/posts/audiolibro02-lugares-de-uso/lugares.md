@@ -1,22 +1,22 @@
 ---
-title: "Episodio 01 : Vilches Alto"
+title: "Lugares de uso"
 date: "2023-08-28T11:50:36+00:00"
 updated: "2023-09-10T05:16:50+00:00"
 status: publish
-permalink: /episodio-1-vilches-alto
+permalink: /audiolibro02-lugares-de-uso
 author: jlp
-excerpt: "Primer Episodio del podcast, Escuela Vilches Alto"
+excerpt: "Víctor Hugo Díaz"
 type: post
 id: 47
-thumbnail_alt: "Episodio 01 Vilches Alto"
-thumbnail: vilches01.jpg
+thumbnail_alt: "Lugares de uso"
+thumbnail: 01lugares.jpg
 category: ["Company Culture", "Remote Work", "Women in Tech"]
 tag: []
 post_format: []
 audio: https://mcdn.podbean.com/mf/web/e3hm35/Episodio1-VilchesAlto.mp3
 secondline_themes_gallery:
   - 'a:1:{i:601;s:83:"https://www.software-engineering-unlocked.com/wp-content/uploads/2019/08/bg_ep1.jpg";}'
-post_header_image: vilches01.jpg
+post_header_image: 01lugares.jpg
 ---
 
 

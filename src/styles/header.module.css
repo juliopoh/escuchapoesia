@@ -1,7 +1,7 @@
 .header {
   --outer-padding: 30px;
   --inner-padding: 0.75rem;
-  background: radial-gradient(at top left, #ffffff, rgb(173, 75, 182) 100%);
+  background: radial-gradient(at top left, #ffffff, rgb(78, 75, 78) 100%);
   background-repeat: no-repeat;
   overflow: none;
   padding: var(--outer-padding);
@@ -111,7 +111,7 @@
 
 .nav li a {
   border-bottom: 3px solid transparent;
-  color: white;
+  color: black;
   display: inline-block;
   margin: 20px 20px;
   padding-bottom: 8px;
@@ -149,7 +149,7 @@
 
 .subscribe div {
   align-items: center;
-  color: var(--primary-700);
+  color: black;
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -158,8 +158,8 @@
 }
 
 .subscribe span {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .subscribe :global(svg) {
-  fill: var(--primary-700);
+  fill: black;
   height: 24px;
   width: 24px;
 }
@@ -219,7 +219,7 @@
   }
 
   .subscribe {
-    background: linear-gradient(270deg, #daa8e4 25%, #29015700 100%);
+    background: linear-gradient(270deg, #aa0974 25%, #29015700 50%);
     inset: 0;
     opacity: 1;
     top: auto;

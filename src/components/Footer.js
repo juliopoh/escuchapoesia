@@ -16,18 +16,18 @@ export default function Footer() {
                 <nav className={styles.nav}>
                   <ul>
                     <li>
-                      <Link to="/">Inicio</Link>
+                      <Link to="/">Proyecto</Link>
                     </li>
                     <li>
-                      <Link to="/proyecto">
-                        Proyecto
+                      <Link to="/autores">
+                        Autores
                       </Link>
                     </li>
                     <li>
-                      <Link to="/galeria">Galería</Link>
-                    </li>
+                    <Link to="/audiolibros">Audiolibros</Link>
+                    </li>  
                     <li>
-                    <Link to="/podcast">Podcast</Link>
+                      <Link to="/galeria">Galería</Link>
                     </li>
                   </ul>
                 </nav>

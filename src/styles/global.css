@@ -6,10 +6,10 @@
   --primary-200: #b0b9e3;
   --primary-300: #8996d4;
   --primary-400: #6173c6;
-  --primary-500: #4054b2;
-  --primary-600: #33438e;
-  --primary-700: #26326b;
-  --primary-800: #1a2247;
+  --primary-500: #0d1124;
+  --primary-600: #0d1124;
+  --primary-700: #0d1124;
+  --primary-800: #0d1124;
   --primary-900: #0d1124;
 
   --grey-100: #f7f9fc;
@@ -124,7 +124,7 @@ footer h2 {
 }
 
 .copy-rights {
-  background-color: #5d76e6;
+  background-color: #aa0974;
   color: white;
   padding: 20px;
 }
@@ -227,10 +227,9 @@ section.about-show {
   padding-left: 2em;
   font-weight: bold;
 }
-
 .flex-container {
   display: flex;
-  background-image: linear-gradient(180deg, #eeff62 0%, #ffd2af 100%);
+  background-image: linear-gradient(180deg, #ff6277 0%, #ffd2af 100%);
 }
 
 .flex-child {

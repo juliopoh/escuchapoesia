@@ -109,7 +109,7 @@ const Seo = ({
         },
         {
           property: `twitter:image:alt`,
-          content: imageAlt || "dellapizalmicrofono.cl social preview",
+          content: imageAlt || "escuchapoesia.cl social preview",
         },
         {
           name: `keywords`,
@@ -123,7 +123,7 @@ const Seo = ({
 Seo.defaultProps = {
   lang: `es`,
   meta: [],
-  description: `Del lápiz al micrófono: Escritura y podcast desde la montaña.`,
+  description: `Escucha Poesía: Colección de audiolibros de poesía chilena actual`,
 };
 
 Seo.propTypes = {

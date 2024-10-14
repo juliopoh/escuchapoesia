@@ -16,10 +16,10 @@ export default function Home({ data }) {
   const posts = data.allMarkdownRemark.nodes;
   return (
     <Layout>
-      <Seo title="Podcasts" />
+      <Seo title="Audiolibros" />
       <Coverindex />
       <section className={styles.episodes} id="begin">
-        <h1>Podcasts</h1>
+        <h1>Audiolibros</h1>
         <ul>
           {posts.map((posts) => (
             <li key={posts.id}>

@@ -1,22 +1,22 @@
 ---
-title: "Promo 1 : Del lápiz al micrófono"
+title: "Migratorio"
 date: "2022-08-28T11:50:36+00:00"
 updated: "2022-12-10T05:16:50+00:00"
 status: publish
-permalink: /promo-1-podcast
+permalink: /audiolibro03-migratorio
 author: jlp
-excerpt: "Audio promocional del podcast"
+excerpt: "Felipe Moncada Mijic"
 type: post
 id: 47
-thumbnail_alt: "Cover Piloto 01"
-thumbnail: promo1.jpg
+thumbnail_alt: "Migratorio"
+thumbnail: 01migratorio.jpg
 category: ["Company Culture", "Remote Work", "Women in Tech"]
 tag: []
 post_format: []
 audio: https://mcdn.podbean.com/mf/web/7rn9q7/01.mp3
 secondline_themes_gallery:
   - 'a:1:{i:601;s:83:"https://www.software-engineering-unlocked.com/wp-content/uploads/2019/08/bg_ep1.jpg";}'
-post_header_image: promo1.jpg
+post_header_image: 01migratorio.jpg
 ---
 
 

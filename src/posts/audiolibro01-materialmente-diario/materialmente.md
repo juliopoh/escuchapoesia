@@ -1,27 +1,27 @@
 ---
-title: "Promo 2 : Del lápiz al micrófono"
-date: "2019-08-28T11:50:36+00:00"
-updated: "2022-12-10T05:16:50+00:00"
+title: "Materialmente diario"
+date: "2024-08-28T11:50:36+00:00"
+updated: "2024-09-10T05:16:50+00:00"
 status: publish
-permalink: /promo-2-podcast
+permalink: /audiolibro01-materialmente-diario
 author: jlp
-excerpt: "Audio promocional del podcast"
+excerpt: "Alejandra del Río Lohan"
 type: post
 id: 47
-thumbnail_alt: "Cover Piloto 01"
-thumbnail: promo2.jpg
+thumbnail_alt: "Cover Materialmente Diario"
+thumbnail: 01materialmente.jpg
 category: ["Company Culture", "Remote Work", "Women in Tech"]
 tag: []
 post_format: []
-audio: https://mcdn.podbean.com/mf/web/jexqcy/02.mp3
+audio: https://mcdn.podbean.com/mf/web/zpnwzn/Episodio1-EscuelaLosRobles.mp3
 secondline_themes_gallery:
   - 'a:1:{i:601;s:83:"https://www.software-engineering-unlocked.com/wp-content/uploads/2019/08/bg_ep1.jpg";}'
-post_header_image: promo2.jpg
+post_header_image: 01materialmente.jpg
 ---
 
 
 <div class="episode-about">
-  Audio promocional para <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña.</strong>
+  Episodio 1 <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña.</strong> | Escuela Los Robles
   <br/>
   <br/>
  <br/>Con este podcast compartiremos:
@@ -36,7 +36,7 @@ post_header_image: promo2.jpg
 
 <div class="row pt-2 align-items-center">
     <div class="col-4">
-    <img src="promo2.jpg" alt="Vilches Alto"/>
+    <img src="robles01.jpg" alt="Vilches Alto"/>
     </div>
     <div class="col-8 guest-about">
     <b>Sobre el podcast</b><br/>

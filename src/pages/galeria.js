@@ -5,13 +5,15 @@ import Seo from "../components/seo";
 import * as styles from "../styles/sponsor.module.css";
 
 
+
 export default function GuestGuide() {
   return (
     <Layout>
       <Seo title="Galería" />
+      <section className={styles.episodes} id="begin">
+        <h1>Galería</h1><br/>
+
       <div className={styles.sponsor_container}>
-        
-        <h1>Galería de imágenes</h1>
         
         <div className={styles.gallery_center}>
           <StaticImage  className={styles.container_image_gallery} src="../images/gallery/image04.jpg" alt="Taller" />
@@ -86,6 +88,7 @@ export default function GuestGuide() {
           </h5>
         </div>
       </div>
+      </section>
       <div className={styles.gradient_section}>
         <div className={styles.sponsor_container} style={{textAlign:"center"}}>
           <h1>Libro en PDF 📕</h1>

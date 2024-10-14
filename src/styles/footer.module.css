@@ -70,7 +70,7 @@
   }
   
   .nav li a::after {
-    background: rgb(253, 114, 34);
+    background: white;
     content: "";
     display: block;
     height: 2px;

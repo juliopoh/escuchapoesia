@@ -7,12 +7,12 @@ module.exports = {
       name: `Julio Díaz Pérez`,
       summary: `Nothing i'm.`,
     },
-    description: `Audiolibros de poesía chilena.`,
-    siteUrl: `https://www.dellapizalmicrofono.cl`,
+    description: `Audiolibros de poesía chilena`,
+    siteUrl: `https://www.escuchapoesia.cl`,
     social: {
       twitter: `mgreiler`,
     },
-    keywords: `software podcast, podcast, literatura, montaña, vilches, maule`,
+    keywords: `software podcast, audiolibro, literatura, poesia chilena`,
     defaultogimage: `/og-image.png`,
   },
   trailingSlash: "always",
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-plausible`,
       options: {
-        domain: `dellapizalmicrofono.cl`,
+        domain: `escuchapoesia.cl`,
       },
     },
     {
@@ -99,7 +99,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Del lápiz al micrófono RSS Feed",
+            title: "Escucha Poesía RSS Feed",
           },
         ],
       },
@@ -108,7 +108,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.dellapizalmicrofono.cl`,
+        siteUrl: `https://www.escuchapoesia.cl`,
       },
     },
     "gatsby-plugin-sitemap",
