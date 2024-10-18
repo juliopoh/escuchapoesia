@@ -26,7 +26,7 @@ export default function GuestGuide() {
         </div>
         <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
-        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton2.png" alt="logo" /></div>
           {" "}
           <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
           <br/>

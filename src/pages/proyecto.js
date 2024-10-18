@@ -19,7 +19,7 @@ export default function Sponsorship() {
       <div className={styles.section_1}>
         <div className={styles.sponsor_container}>
           <p><b>Del lápiz al micrófono, escritura y podcast desde la montaña</b> es una iniciativa de fomento lector financiada por el Fondo Nacional de Fomento del Libro y la Lectura, otorgado por el Ministerio de las Culturas, las Artes y el Patrimonio, en su convocatoria 2023.</p>
-          <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton3.png" alt="logo" /></div>
+          <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
           <p>Dicho proyecto, tiene como objetivo <b>promover la lecto-escritura, la valoración del territorio y el uso de las nuevas tecnologías de información y comunicación (Tic)</b> a través de la implementación de una serie de sesiones de taller con estudiantes de la escuela <b>“Los Robles”</b> y la escuela <b>“Vilches Alto”</b>, de la localidad de Vilches, en la cordillera de San Clemente, región del Maule.</p>
           <p>
 Su implementación se propone incentivar el fomento lector a través del <b>rescate y transmisión de la identidad territorial de la comunidad de Vilches, registrando las diversas historias, mitos, cuentos o toponimias que habitan y recorren la localidad.</b>
@@ -63,7 +63,7 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
       </div>
       <div className={styles.section_2}>
         <div className={styles.sponsor_container}>
-        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton.png" alt="logo" /></div>
+        <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton2.png" alt="logo" /></div>
           {" "}
           <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
           <br/>

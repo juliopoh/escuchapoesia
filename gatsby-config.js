@@ -115,7 +115,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/isokid.png",
+        icon: "src/images/iso-circle.png",
       },
     },
     {

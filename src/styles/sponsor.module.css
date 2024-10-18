@@ -61,7 +61,7 @@
   font-weight: 500;
 }
 .donation {
-  background-image: url(https://dixie.secondlinethemes.com/wp-content/uploads/2017/09/donate-bg.jpg);
+  background-image: url("../images/donate-bg.jpg");
   background-size: cover;
 }
 .donation .sponsor_container h1,
@@ -172,6 +172,7 @@ video {
   margin-bottom: 35px;
 }
 .container_image_gallery {
+  height: 500px;
   width: 100%;
 }
 
@@ -198,4 +199,15 @@ video {
   text-transform: uppercase;
   color: var(--primary-700);
   text-align: center;
+}
+
+
+.episodes h1::after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: -12px;
+  height: 4px;
+  width: 20%;
+  background: var(--primary-700);
 }
