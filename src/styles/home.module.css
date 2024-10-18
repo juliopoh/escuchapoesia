@@ -20,6 +20,7 @@
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--primary-700);
+  text-align: center;
 }
 
 .episodes h4 {

@@ -13,8 +13,9 @@ export default function Autores() {
       <Seo title="Los autores de esta colección de audiolibros" />
       <section className={styles.episodes} id="begin">
         <h1>Autores de esta colección</h1><br/>
-      <Container>
-        <div class="flex-container flex-md-row">
+        </section>
+        <Container className={styles.episodes}>
+        <div class="flex-container flex-sm-row">
           <div class="flex-child">
             <StaticImage
               src="../images/gallery/author_01_ale.jpg"
@@ -149,8 +150,7 @@ export default function Autores() {
             </p>
           </div>
         </section>
-      </Container>
-      </section>
+        </Container>
     </Layout>
   );
 }

@@ -10,7 +10,7 @@ module.exports = {
     description: `Audiolibros de poesía chilena`,
     siteUrl: `https://www.escuchapoesia.cl`,
     social: {
-      twitter: `mgreiler`,
+      twitter: ``,
     },
     keywords: `software podcast, audiolibro, literatura, poesia chilena`,
     defaultogimage: `/og-image.png`,
