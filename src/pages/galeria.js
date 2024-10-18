@@ -19,7 +19,7 @@ export default function GuestGuide() {
             <StaticImage  className={styles.container_image_gallery} src="../images/gallery/image04.jpg" alt="Taller" />
             <Carousel.Caption>
               <h5>
-                Sesión "Crea tu libro-bitácora"
+                Sesión 1 "Crea tu libro-bitácora"
               </h5>
               <p>
                 alumnos aprendiendo a encuadernar con hotmelt. Escuela Vilches Alto, Vilches, mayo 2023.
