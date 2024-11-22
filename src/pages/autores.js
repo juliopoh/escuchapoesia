@@ -24,38 +24,24 @@ export default function Autores() {
           </div>
           <div class="flex-child">
             <h4>Alejandra del Río Lohan</h4>
+            <p>(Santiago, 1972)</p>
             <p>
-              Michaela Greiler has a passion for understanding how people
-              develop software. For years, she has been analyzing and improving
-              the software development processes at Microsoft. Now she runs her
-              own training and consultancy business, where she helps engineering
-              teams around the world to make code reviews their superpower. She
-              shares her findings through articles on her blog or in scientific
-              journals, in publications such as freecodecamp and at conferences.
-              And, she also runs a weekly software engineering newsletter that
-              more than 1400 people enjoy. With this podcast, she wants to open
-              doors of successful software companies, and discuss with her
-              guests what it takes to develop scalable, maintainable and
-              reliable software people love.
+            Poeta y pedagoga cuya iconoclasta labor ha transitado entre la literatura, la educación y la performance, combinando dichas disciplinas para componer materiales diversos entre los que se aprecian instalaciones plásticas y dramáticas, guiones audiovisuales y poesía concreta.
+            Estudio Literatura en la Universidad de Chile y Escritura Autobiográfica y Creativa en la Alice Salomon Hochschule, de Berlín, especializándose como “pedagoga de poesía”, enfoque que releva las necesidades metodológicas y didácticas para una enseñanza efectiva del lenguaje.
+            Su obra reconocida con múltiples distinciones, se ha instalado en la tradición poética de chile, como una voz que reflexiona sobre las trampas de la identidad, el desarraigo y el viaje. 
+
             </p>
           </div>
         </div><br/>
         <div class="flex-container">
           <div class="flex-child">
             <h4>Víctor hugo díaz</h4>
+            <p>(Santiago, 1965)</p>
             <p>
-              Michaela Greiler has a passion for understanding how people
-              develop software. For years, she has been analyzing and improving
-              the software development processes at Microsoft. Now she runs her
-              own training and consultancy business, where she helps engineering
-              teams around the world to make code reviews their superpower. She
-              shares her findings through articles on her blog or in scientific
-              journals, in publications such as freecodecamp and at conferences.
-              And, she also runs a weekly software engineering newsletter that
-              more than 1400 people enjoy. With this podcast, she wants to open
-              doors of successful software companies, and discuss with her
-              guests what it takes to develop scalable, maintainable and
-              reliable software people love.
+            Poeta y crítico identificado con el grupo de la Generación Post 87. Su obra destaca por renovar el imaginario de la poesía chilena, iluminando con su lenguaje lugares cotidianos dibujando así una nueva fisonomía poética para el Santiago de la época.
+            Entre sus trabajos destacan La comarca de los senos caídos, Lugares de uso y Hechizas, pomas anticipados.
+            Su obra ha sido reconocida con importantes distinciones, como el premio Pablo Neruda, otorgado en el año 2004.
+
             </p>
           </div>
           <div class="flex-child">
@@ -74,38 +60,24 @@ export default function Autores() {
           </div><br/>
           <div class="flex-child">
             <h4>Felipe Moncada Mijic</h4>
+            <p>(Quellón, Chiloé, 1973)</p>
             <p>
-              Michaela Greiler has a passion for understanding how people
-              develop software. For years, she has been analyzing and improving
-              the software development processes at Microsoft. Now she runs her
-              own training and consultancy business, where she helps engineering
-              teams around the world to make code reviews their superpower. She
-              shares her findings through articles on her blog or in scientific
-              journals, in publications such as freecodecamp and at conferences.
-              And, she also runs a weekly software engineering newsletter that
-              more than 1400 people enjoy. With this podcast, she wants to open
-              doors of successful software companies, and discuss with her
-              guests what it takes to develop scalable, maintainable and
-              reliable software people love.
+            Poeta y Profesor de Física y Matemáticas. Su obra destacada por el uso de imágenes que transitan por ambientes rurales y urbanos, cuyos paisajes conviven y se invaden mutuamente, dando cuenta de una realidad más compleja que el simple binomio campo-ciudad, renovando así el imaginario de la provincia en la poesía chilena.
+            Como poeta ha sido loado con distinciones tales como el Premio Municipal de Santiago (2016) por su libro Silvestre, y como ensayista con el premio a Mejores Obras Inéditas, versión 2015, por su libro Territorios Invisibles.
+            Desde el año 2013, se desempeña como editor en el sello Inubicalistas, editorial que cuenta con un amplio catálogo de poesía, ensayos y traducciones.
+
             </p>
           </div>
         </div><br/>
         <div class="flex-container">
           <div class="flex-child">
             <h4>Germán Carrasco</h4>
+            <p>(Santiago, 1971)</p>
             <p>
-              Michaela Greiler has a passion for understanding how people
-              develop software. For years, she has been analyzing and improving
-              the software development processes at Microsoft. Now she runs her
-              own training and consultancy business, where she helps engineering
-              teams around the world to make code reviews their superpower. She
-              shares her findings through articles on her blog or in scientific
-              journals, in publications such as freecodecamp and at conferences.
-              And, she also runs a weekly software engineering newsletter that
-              more than 1400 people enjoy. With this podcast, she wants to open
-              doors of successful software companies, and discuss with her
-              guests what it takes to develop scalable, maintainable and
-              reliable software people love.
+            Destacado poeta y traductor de la generación del 90.  Su obra volvió a poner en carrera el proyecto lírico en Chile, luego de la manifiesta poesía cívica y la politizada estética de las décadas anteriores. Ampliando el campo de batalla, renovó lecturas y referentes e introdujo a nuestra cultura influencias anglosajonas que el poeta supo adaptar para dotarlas de un sabor local.
+            Su poética se caracteriza por un predominantemente componente visual, como también por un lenguaje cercano al habla, con el cual ha retratado variados temas como la urbe o la cordillera, el amor y la paternidad.
+            A su vez, ha sabido tomar herramientas de disciplinas parales, como el cine, haciendo uso del montaje para componer sus versos a través de imágenes dispares que logra integrar armónicamente para crear así, una obra que cuenta a su haber con más de 20 libros publicados. 
+            Entre sus distinciones sobresalen el Premio Sor Juana Inés de la Cruz el año 2001 y el premio Pablo Neruda en el año 2005. 
             </p>
           </div>
           <div class="flex-child">
@@ -115,41 +87,6 @@ export default function Autores() {
             />
           </div>
         </div>
-        <section class="about-show">
-          <h2>About Our Show</h2>
-          <hr class="rounded-short"></hr>
-          <p>
-            This show was born out of Michaela’s curiosity for how different
-            companies develop software. How does their tech stack look like?
-            Which practices do they follow? Do they do code reviews? Are the
-            concerned about technical debt? And what about their culture and
-            company values? With this podcast Michaela wants to open doors at
-            different companies, and get the perspective of experts in the
-            fields about how to develop maintainable, reliable and scaleable
-            software people love. Michaela’s guests come from completely
-            different backgrounds. Some come from large cooperation such as
-            Microsoft, Google or Facebook. Some are founders of their own tech
-            startup. And some come from more traditional or smaller businesses.
-            What they all have in common is a passion for high-quality software.
-            But how do they achieve their goal? As we all know, there isn’t only
-            one way of developing quality-software. So, what best practices do
-            they value, which management style do they prefer, and do they
-            follow a certain software methodology. What problems do they
-            struggle with? And which ones did they overcome already? Let’s find
-            out together in the Software Engineering Unlocked Podcast!
-          </p>
-        </section>
-        <section class="newsletter">
-          <div>
-            <h2>Join Our Newsletter</h2>
-            <hr class="rounded-short"></hr>
-            <p>
-              Want to connect on a deeper level? Make sure to hop on the mailing
-              list and get behind the scenes information the show, the guests
-              and the host.
-            </p>
-          </div>
-        </section>
         </Container>
     </Layout>
   );

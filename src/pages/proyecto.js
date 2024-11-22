@@ -65,16 +65,18 @@ Su implementación se propone incentivar el fomento lector a través del <b>resc
         <div className={styles.sponsor_container}>
         <div style={{textAlign:"center"}}><StaticImage  className={styles.container_image} src="../images/indexbutton2.png" alt="logo" /></div>
           {" "}
-          <h3 style={{textAlign:"center"}}>Por qué un podcast?</h3>
+          <h3 style={{textAlign:"center"}}>Por qué audiolibros?</h3>
           <br/>
           <p>
-          Pensamos que puede ser un medio perfecto para llamar la atención de l@s niñ@s, y una vía para su libre expresión por medio de la palabra, el sonido, y también el ruido. 
+          El canal auditivo puede ser un gran medio para hacer llegar la literatura a personas que no han podido acceder a ella por, entre otras, dos grandes razones: son personas ciegas o con algún grado discapacidad visual, o son personas que a causa de diversos condicionantes sociales no tienen hábitos lectores y están lejos del acceso al libro. 
           
           </p>
           <br/>
           <p>
-          Así mismo,  permite a l@s estudiantes de una ruralidad particular, ponerse en contacto con alguna de las últimas tecnologías de la información y la comunicación, que llevan un tiempo afianzándose en la cultura urbana, como las plataformas Spotify, Youtube, etc. Creemos que esto amplía el campo de observación de su territorio, lo que implica una interpretación mas nutrida del entorno.
+          Ambos grandes grupos, sin embargo, muy probablemente cuentan con acceso a un dispositivo tecnológico (teléfono, tablet, computador), a través del cual pueden conectarte a internet y acceder a contenido audiovisual. Allí es donde está el nodo al que apunta este proyecto: si logramos disponer de audiolibros grabados con voz humana, en la mejor calidad y con material complementario, podemos lograr los clics necesarios para que las personas vayan accediendo a “escuchar libros”.
           </p>
+          <br/>
+          <p>Es un modo más versátil, en el caso de las personas sin discapacidad se puede hacer mientras se realizan otras tareas (lavar la loza, en el transporte público, mientras se descansa); y en el caso de las personas ciegas y con discapacidad visual, les permite conocer muchas más obras que en el formato braille.</p>
         </div>
       </div>
       {/*section2*/}

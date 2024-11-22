@@ -9,27 +9,12 @@ export default function Header() {
     {
       name: "spotify",
       title: "Spotify",
-      href: "https://open.spotify.com/show/3as6D7zbBd0sOzH0IDQfXz",
-    },
-    {
-      name: "facebook",
-      title: "Facebook",
-      href: "https://www.facebook.com/profile.php?id=61550348950631",
+      href: "https://open.spotify.com/show/3xiUXsujQNQtLOJGZ46YZK?si=8109f4d8d3aa4fbe",
     },
     {
       name: "instagram",
       title: "Instagram",
-      href: "https://www.instagram.com/del_lapiz_al_microfono/",
-    },
-    {
-      name: "yt",
-      title: "YouTube",
-      href: "https://www.youtube.com/channel/UC6g0vx4LMYN1oOvRdPMgmyA",
-    },
-    {
-      name: "rss",
-      title: "RSS",
-      href: "https://anchor.fm/s/e816739c/podcast/rss",
+      href: "https://www.instagram.com/escucha_poesia/",
     },
   ];
 
@@ -58,7 +43,7 @@ export default function Header() {
               <Link to="/audiolibros">Audiolibros</Link>
               </li>
               <li>
-                <Link to="/galeria">Galería</Link>
+                <Link to="/recursos">Recursos</Link>
               </li>
             </ul>
           </nav>

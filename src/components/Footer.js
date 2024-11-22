@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import { FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaSpotify } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "../styles/footer.module.css";
@@ -27,7 +27,7 @@ export default function Footer() {
                     <Link to="/audiolibros">Audiolibros</Link>
                     </li>  
                     <li>
-                      <Link to="/galeria">Galería</Link>
+                      <Link to="/recursos">Recursos</Link>
                     </li>
                   </ul>
                 </nav>
@@ -36,22 +36,22 @@ export default function Footer() {
         
         <p>
           <a
-            href="https://www.facebook.com/profile.php?id=61550348950631"
+            href="https://open.spotify.com/show/3xiUXsujQNQtLOJGZ46YZK?si=f73144eaf2594dc3"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook link"
           >
             {" "}
-            <FaFacebookSquare className="pointer" size={30} />{" "}
+            <FaSpotify className="pointer" size={30} />{" "}
           </a>
           <a
-            href="https://www.instagram.com/del_lapiz_al_microfono/"
+            href="https://www.instagram.com/escucha_poesia/"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram link"
           >
             {" "}
-            <FaInstagramSquare className="pointer" size={30} />
+            <FaInstagram className="pointer" size={30} />
           </a>
         </p>
       </div>
@@ -72,7 +72,7 @@ export default function Footer() {
           <p className="text-center">
             Desarrollado por {" "}
             <a
-              href="https://github.com/juliopoh/delapizalmicrofono"
+              href="https://github.com/juliopoh/escuchapoesia"
               target="_blank"
               rel="noreferrer"
             >
