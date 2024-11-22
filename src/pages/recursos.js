@@ -14,13 +14,12 @@ export default function GuestGuide() {
       <Seo title="Recursos" />
       <section className={styles.episodes} id="begin">
         <h1>Recursos</h1><br/>
-        <h2>Aquí podrás encontrar algunos materiales que resultaron de este proyecto</h2>
       </section>
       <div className={styles.section_1}>
       <div className={styles.sponsor_container}>
           <Row xs={1} md={3}>
             <Col>
-              <Card style={{ width: '30rem' }}>
+              <Card>
                <StaticImage variant="top" src="../images/productos/guia.jpg" alt="Audioguia" />
                 <Card.Body>
                   <Card.Title><b>Guía de apreciación con recomendaciones pedagógicas</b></Card.Title>
@@ -36,7 +35,7 @@ export default function GuestGuide() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: '30rem' }}>
+              <Card>
                <StaticImage variant="top" src="../images/productos/apreciacion.jpg" alt="Audioguia" />
                 <Card.Body>
                   <Card.Title><b>Guía de apreciación en audio</b></Card.Title>
@@ -52,7 +51,7 @@ export default function GuestGuide() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: '30rem' }}>
+              <Card>
                <StaticImage variant="top" src="../images/productos/braille.jpg" alt="Audioguia" />
                 <Card.Body>
                   <Card.Title><b>Antología en braille</b></Card.Title>
