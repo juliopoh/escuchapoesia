@@ -1,12 +1,13 @@
 import { graphql } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
-import { getImage, getSrc } from "gatsby-plugin-image";
+import { getImage, getSrc, GatsbyImage } from "gatsby-plugin-image";
 import "../styles/markdown.css";
 import * as styles from "../styles/posts-detail.module.css";
 import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import { constructUrl } from "../components/util";
+import { Spotify } from "react-spotify-embed";
 
 export default function PostsDetails({ data }) {
   const { html } = data.markdownRemark;
@@ -16,43 +17,13 @@ export default function PostsDetails({ data }) {
     thumbnail,
     thumbnail_alt,
     permalink,
-    post_header_image,
     excerpt,
-    audio,
   } = data.markdownRemark.frontmatter;
 
-  const { transcript } = data;
   const ogimagesrc = getSrc(getImage(ogimage.frontmatter.thumbnail));
 
-  let audio_player;
-  if (audio) {
-    audio_player = (
-      <iframe
-        height="200px"
-        width="100%"
-        frameborder="no"
-        scrolling="no"
-        seamless
-        src={audio}
-        title={title}
-      ></iframe>
-    );
-  } else {
-    audio_player = ( 
-      <audio controls preload="none" style={{border:"2px solid #263669", borderRadius: "64px", boxShadow: " 2px 2px 1px 1px #eeff61;"}}>
-        <source src={audio} />
-      </audio>
-    );
-  }
 
-  let transcript_html;
-  if (transcript) {
-    transcript_html = (
-      <div dangerouslySetInnerHTML={{ __html: transcript.html }} />
-    );
-  } else {
-    transcript_html = <p>...</p>;
-  }
+
 
   return (
     <Layout>
@@ -68,13 +39,13 @@ export default function PostsDetails({ data }) {
         {/* <audio controls preload="none">
           <source src={audio} />
         </audio> */}
-        {audio_player}
+        {/* {audio_player} */}
         <h1 className={styles.podcast_details}>{title}</h1>
 
         <div>
-          {/* <div>
+         <div>
           <GatsbyImage image={getImage(thumbnail)} alt={permalink} />
-        </div> */}
+        </div> 
           <div className={styles.episode_details}>
             {/* <GatsbyImage
               className={styles.podcast_guest_picture}
@@ -107,11 +78,12 @@ export const query = graphql`
         title
         type
         permalink
+        year
         excerpt
         thumbnail {
           childImageSharp {
             gatsbyImageData(
-              width: 200
+              width: 300
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )

@@ -12,7 +12,7 @@ export default function Autores() {
     <Layout>
       <Seo title="Los autores de esta colección de audiolibros" />
       <section className={styles.episodes} id="begin">
-        <h1>Autores de esta colección</h1><br/>
+        <h1>Autores en esta colección</h1><br/>
         </section>
         <Container className={styles.episodes}>
         <div class="flex-container flex-sm-row">

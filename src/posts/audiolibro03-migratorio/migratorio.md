@@ -5,6 +5,7 @@ updated: "2022-12-10T05:16:50+00:00"
 status: publish
 permalink: /audiolibro03-migratorio
 author: jlp
+year: "2018"
 excerpt: "Felipe Moncada Mijic"
 type: post
 id: 47
@@ -21,31 +22,31 @@ post_header_image: 01migratorio.jpg
 
 
 <div class="episode-about">
-  Audio promocional para <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña.</strong>
+ <h3> <strong>Migratorio</strong> (2018) de Felipe Moncada</h3>
   <br/>
   <br/>
- <br/>Con este podcast compartiremos:
-    <ul>
-        <li>Lectura de nuestros propios escritos</li>
-        <li>Textos seleccionados de la biblioteca</li>
-        <li>Experiencias en el territorio</li>
-        <li>Libros, naturaleza e imaginación</li>
-    </ul>
+  
+ <br/>Reúne poemas acumulados por alrededor de 10 años en donde el ambiente rural y el urbano conviven y se invaden mutuamente, dando cuenta de este y otros paralelismos que no terminan nunca de calzar y que en su fricción y disputa forman el imaginario de Migratorio, poemario en que reina una diversidad de tonos, sentidos y culturas. Por momento se enuncia una suerte de melancolía por la derrota, en otras un vigor por los espacios que sobreviven y en una suerte de caleidoscopio vamos de viaje por un ambiente fragmentario, hilado arbitrariamente por el tiempo.<br/>
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/08TORacRPPqoi0NUN3vpWo?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ 
+  Uno de los tantos puntos a destacar del libro, dice relación con el orden perceptivo de nuestros sentidos, en donde la vista predomina en áreas urbanas, mientras que, para posiciones rurales, el poema funciona a través de un mayor sentido del oído. En migratorio, quinto poemario de Felipe Moncada, se puede constatar la presencia de la naturaleza como una fuerza transversal en su obra, y que el autor registra para dar cuenta del paso de los años a través del movimiento incesante de nuestras vidas.  
+    
 </div>
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/41j1yAZgC2FViPvU524Lir?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <div class="row pt-2 align-items-center">
     <div class="col-4">
-    <img src="promo1.jpg" alt="Vilches Alto"/>
+    <img src="../../images/iso-circle.png" alt="Vilches Alto"/>
     </div>
     <div class="col-8 guest-about">
-    <b>Sobre el podcast</b><br/>
-      Este es un proyecto de fomento lector, en el que se incentiva a los alumnos de dos escuelas rurales a desarrollar una historia sobre su territorio, o su vida cotidiana en la montaña.
+    <b>Sobre Escucha Poesía</b><br/>
+      <h4>Iniciativa que se propone fomentar el acercamiento al libro y al género literario de la poesía a personas ciegas, con discapacidad visual y público general, a través de la producción y difusión de una Colección de audiolibros de poetas chilenos contemporaneos. </h4>
     </div>
 </div>
 
 
 <div class="sponsorship">
-Puedes descargar <a href="https://www.docdroid.net/file/download/jHjH8N1/escritura-y-podcast-web-pdf.pdf" target="_blank" rel="noreferrer">este libro en PDF</a>, en el que hemos resumido la actividad
+Puedes descargar <a href="https://mega.nz/file/cAkiDBBA#Q60ksoMHOqO0QF_r_zTdpQr5QoMe_NEVEtVdYRyo_hM" target="_blank" rel="noreferrer">esta guía de apreciación</a>, con recomendaciones pedagógicas
 </div>
 <br/>

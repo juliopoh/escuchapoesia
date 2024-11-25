@@ -31,14 +31,12 @@ export default function Home({ data }) {
                 </div>
                 <div className={styles.cardContent}>
                   <h2 className={styles.episodeTitle}>
-                    {posts.frontmatter.title}
+                    {posts.frontmatter.title} ({posts.frontmatter.year}) 
                   </h2>
+               
                   <p className={styles.episodeExcerpt}>
-                    {posts.frontmatter.excerpt}
+                  {posts.frontmatter.excerpt} 
                   </p>
-                  <audio controls preload="none">
-                    <source src={posts.frontmatter.audio} />
-                  </audio>
                 </div>
               </Link>
             </li>
@@ -66,6 +64,7 @@ export const query = graphql`
           title
           status
           permalink
+          year
           thumbnail {
             childImageSharp {
               gatsbyImageData(

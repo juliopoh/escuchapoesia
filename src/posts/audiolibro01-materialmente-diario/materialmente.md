@@ -5,6 +5,7 @@ updated: "2024-09-10T05:16:50+00:00"
 status: publish
 permalink: /audiolibro01-materialmente-diario
 author: jlp
+year: "2009"
 excerpt: "Alejandra del Río Lohan"
 type: post
 id: 47
@@ -21,31 +22,28 @@ post_header_image: 01materialmente.jpg
 
 
 <div class="episode-about">
-  Episodio 1 <strong>Del lápiz al micrófono: Escritura y podcast desde la montaña.</strong> | Escuela Los Robles
+  <h3><strong>material mente diario 1998-2008</strong> (2009) de Alejandra del Río</h3>
   <br/>
   <br/>
- <br/>Con este podcast compartiremos:
-    <ul>
-        <li>Lectura de nuestros propios escritos</li>
-        <li>Textos seleccionados de la biblioteca</li>
-        <li>Experiencias en el territorio</li>
-        <li>Libros, naturaleza e imaginación</li>
-    </ul>
+ Poemario escrito entre dichos años, recorre temas tales como el destierro, la extranjería o el viaje, todas estas experiencias, en algún punto sentidas como pérdidas, son revisadas a la luz de la historia, personal y colectiva, componiendo así el recuerdo de un país extraviado y aceptando, sin más remedio, el peregrinaje como única verdad.  Alejandra del Río, de padre chileno y madre alemana, rescata ciertos elementos culturales, como el muro de Berlín, por ejemplo, para dar cuenta de un quiebre o una falta, un cisma entre territorios, división que también se presenta con cierto aire trágico en la voz del hablante de este libro. 
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2Tew5X8OExfJ13HDosszrO?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ Los poemas de material mente diario, transitan desde una reflexión autobiográfica hacia una representación nostálgica de algún espacio identitario, ampliando la experiencia política del exilio, que, en ocasiones se vive como una práctica personal, cuando el despojo ordena el destino, dejando al duelo y la memoria como el territorio que nos toca.
+
 </div>
 
 
 <div class="row pt-2 align-items-center">
     <div class="col-4">
-    <img src="robles01.jpg" alt="Vilches Alto"/>
+    <img src="../../images/iso-circle.png" alt="Vilches Alto"/>
     </div>
     <div class="col-8 guest-about">
-    <b>Sobre el podcast</b><br/>
-      Este es un proyecto de fomento lector, en el que se incentiva a los alumnos de dos escuelas rurales a desarrollar una historia sobre su territorio, o su vida cotidiana en la montaña.
+    <b>Sobre Escucha Poesía</b><br/>
+      <h4>Iniciativa que se propone fomentar el acercamiento al libro y al género literario de la poesía a personas ciegas, con discapacidad visual y público general, a través de la producción y difusión de una Colección de audiolibros de poetas chilenos contemporaneos. </h4>
     </div>
 </div>
 
 
 <div class="sponsorship">
-Puedes descargar <a href="https://www.docdroid.net/file/download/jHjH8N1/escritura-y-podcast-web-pdf.pdf" target="_blank" rel="noreferrer">este libro en PDF</a>, en el que hemos resumido la actividad
+Puedes descargar <a href="https://mega.nz/file/cAkiDBBA#Q60ksoMHOqO0QF_r_zTdpQr5QoMe_NEVEtVdYRyo_hM" target="_blank" rel="noreferrer">esta guía de apreciación</a>, con recomendaciones pedagógicas
 </div>
 <br/>
